@@ -36,13 +36,11 @@ namespace Mistie_v_3.FrontEnd.Pages
             spravceCidel.CollectionRelaxTelevize();
             mainWindow.AktivitaButtonu();
         }
-
         private void svetlaLampaButton_Click(object sender, RoutedEventArgs e)
         {
             spravceCidel.CollectionPracovnaPrace();
             mainWindow.AktivitaButtonu();
         }
-
         private void zapnoutVsechnaSvetlaButton_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.AktivitaButtonu();

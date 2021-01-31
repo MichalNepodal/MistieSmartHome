@@ -36,18 +36,13 @@ namespace Mistie_v_3.FrontEnd.Pages.Home
             InitializeComponent();
         }
 
-
-
-
         public void AktualizovatTeplotu()
         {
             teplotaINTextBlock.Text = spravceCidel.VratTeplotu().ToString() + " °C";
         }
 
-
         // BUTTONS    BUTTONS
         // BUTTONS    BUTTONS
-
         private void kolekceButton_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.DomacnostCollectionPage1();
@@ -74,17 +69,10 @@ namespace Mistie_v_3.FrontEnd.Pages.Home
             mainWindow.HudbaPage1();
         }
 
-
-
-
-
-
         // METODA PŘI BUILDU
         private void OdesliSeBackgrount()
         {
             backGroundProcesy.NactiHomePage1(this);
-        }
-
-        
+        }        
     }
 }

@@ -43,28 +43,18 @@ namespace Mistie_v_3.FrontEnd.Pages
         {
             mainWindow.SvetlaObyvakPage1();
         }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-
         private void pracovnaSvetlaButton_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.SvetlaPracovnaPage1();
         }
-
         private void wcSvetlaButton_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.SvetlaWCPage1();
         }
-
         private void KoupelnaSvetlaButton_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.SvetlaKoupelnaPage1();
         }
-
         private void kuchynSvetlaButton_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.SvetlaKuchynPage1();
@@ -73,7 +63,6 @@ namespace Mistie_v_3.FrontEnd.Pages
         {
             mainWindow.SvetlaLoznicePage1();
         }
-
         private void zpetButton_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.SvetlaPage1();

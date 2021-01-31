@@ -41,61 +41,51 @@ namespace Mistie_v_3.FrontEnd.Pages.Zabezpeceni
             displayTextBlock.Text += "*";
             spravceZabezpeceni.KontrolaHesla("1");
         }
-
         private void cislo2Button_Click(object sender, RoutedEventArgs e)
         {
             displayTextBlock.Text += "*";
             spravceZabezpeceni.KontrolaHesla("2");
         }
-
         private void cislo3Button_Click(object sender, RoutedEventArgs e)
         {
             displayTextBlock.Text += "*";
             spravceZabezpeceni.KontrolaHesla("3");
         }
-
         private void cislo4Button_Click(object sender, RoutedEventArgs e)
         {
             displayTextBlock.Text += "*";
             spravceZabezpeceni.KontrolaHesla("4");
         }
-
         private void cislo5Button_Click(object sender, RoutedEventArgs e)
         {
             displayTextBlock.Text += "*";
             spravceZabezpeceni.KontrolaHesla("5");
         }
-
         private void cislo6Button_Click(object sender, RoutedEventArgs e)
         {
             displayTextBlock.Text += "*";
             spravceZabezpeceni.KontrolaHesla("6");
         }
-
         private void cislo7Button_Click(object sender, RoutedEventArgs e)
         {
             displayTextBlock.Text += "*";
             spravceZabezpeceni.KontrolaHesla("7");
         }
-
         private void cislo8Button_Click(object sender, RoutedEventArgs e)
         {
             displayTextBlock.Text += "*";
             spravceZabezpeceni.KontrolaHesla("8");
         }
-
         private void cislo9Button_Click(object sender, RoutedEventArgs e)
         {
             displayTextBlock.Text += "*";
             spravceZabezpeceni.KontrolaHesla("9");
         }
-
         private void cislo0Button_Click(object sender, RoutedEventArgs e)
         {
             displayTextBlock.Text += "*";
             spravceZabezpeceni.KontrolaHesla("0");
         }
-
         private void vynulovatHesloButton_Click(object sender, RoutedEventArgs e)
         {
             spravceZabezpeceni.VynulovatHeslo();
@@ -103,7 +93,6 @@ namespace Mistie_v_3.FrontEnd.Pages.Zabezpeceni
 
         // METODA PŘI VYTVTOŘENÍ 
         // METODA PŘI VYTVTOŘENÍ 
-
         private void OdesliObjektSpravZabezpeceni()
         {
             spravceZabezpeceni.NactiHesloPage1(this);

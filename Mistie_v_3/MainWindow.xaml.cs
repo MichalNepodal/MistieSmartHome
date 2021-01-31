@@ -36,7 +36,7 @@ namespace Mistie_v_3
         SpravceCidel spravceCidel;
         SpravceHudby spravceHudby;
         SpravceZabezpeceni spravceZabezpeceni;
-        //ArduinoCtecka arduinoCtecka;
+
         // PAGES
         HomePage1 homePage1;
         DomacnostPage domacnostPage;
@@ -66,7 +66,7 @@ namespace Mistie_v_3
                 
         MistiePage1 mistiePage1;
 
-        public bool PocitatAktivitu = false;
+        public bool PocitatAktivitu { get; set; }
         public int aktivitaCislo = 0;
 
         
@@ -105,6 +105,8 @@ namespace Mistie_v_3
             mistiePage1 = new MistiePage1(this, mistie);
             hudbaPage1 = new HudbaPage1(spravceHudby, this);
             //webPage1 = new WebPage1(this);
+
+            PocitatAktivitu = false;
 
             InitializeComponent();
             //mistieSayTextBlock.Text = ".....";

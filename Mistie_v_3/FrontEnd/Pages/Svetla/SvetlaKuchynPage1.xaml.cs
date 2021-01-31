@@ -36,19 +36,16 @@ namespace Mistie_v_3.FrontEnd.Pages
             spravceCidel.SvetlaIN("kuchyn", "", "on");
             mainWindow.AktivitaButtonu();
         }
-
         private void vypnoutVsechnaSvetlaButton_Click(object sender, RoutedEventArgs e)
         {
             spravceCidel.SvetlaIN("kuchyn", "", "off");
             mainWindow.AktivitaButtonu();
         }
-
         private void svetlaLustrButton_Click(object sender, RoutedEventArgs e)
         {
             spravceCidel.SvetlaINAuto("kuchyn", "lustr");
             mainWindow.AktivitaButtonu();
         }
-
         private void zpetButton_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.SvetlaPageIN1();

@@ -25,13 +25,12 @@ namespace Mistie_v_3.FrontEnd.Pages.Web
         {
             this.mainWindow = mainWindow;
             InitializeComponent();
-            //Nalad();
         }
 
 
-        private void Nalad()
-        {
-            web.Source = new Uri("http://www.google.com");
-        }
+        //private void Nalad()
+        //{
+        //    web.Source = new Uri("http://www.google.com");
+        //}
     }
 }

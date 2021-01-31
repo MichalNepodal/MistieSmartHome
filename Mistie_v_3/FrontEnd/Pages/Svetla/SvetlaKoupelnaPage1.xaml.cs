@@ -30,24 +30,22 @@ namespace Mistie_v_3.FrontEnd.Pages
             this.spravceCidel = spravceCidel;
             InitializeComponent();
         }
+
         private void zapnoutVsechnaSvetlaButton_Click(object sender, RoutedEventArgs e)
         {
             spravceCidel.SvetlaIN("koupelna", "", "on");
             mainWindow.AktivitaButtonu();
         }
-
         private void vypnoutVsechnaSvetlaButton_Click(object sender, RoutedEventArgs e)
         {
             spravceCidel.SvetlaIN("koupelna", "", "off");
             mainWindow.AktivitaButtonu();
         }
-
         private void svetlaLustrButton_Click(object sender, RoutedEventArgs e)
         {
             spravceCidel.SvetlaINAuto("koupelna", "lustr");
             mainWindow.AktivitaButtonu();
         }
-
         private void zpetButton_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.SvetlaPageIN1();

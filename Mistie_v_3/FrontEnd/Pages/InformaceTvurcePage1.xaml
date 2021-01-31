@@ -14,13 +14,13 @@
                 <SolidColorBrush Color="Black" Opacity="0.83"/>
             </Border.Background>
             <StackPanel Width="Auto" Height="Auto">
-                <TextBlock Height="Auto" FontSize="50" Foreground="White" Text="Informace o NP Software s.r.o." HorizontalAlignment="Center" FontFamily="Ebrima" FontWeight="Bold" TextDecorations="{x:Null}"/>
-                <TextBlock Height="Auto" Margin="96,50,0,0" FontSize="35" Foreground="White" Text="Název firmy:     NP Software s.r.o." HorizontalAlignment="Left" FontFamily="Ebrima"/>
-                <TextBlock Height="Auto" Margin="173,0,0,0" FontSize="35" Foreground="White" Text="Adresa:     ul. Nerudova 4350, 388 01 Blatná" HorizontalAlignment="Left" FontFamily="Ebrima"/>
-                <TextBlock Height="Auto" Margin="80,0,0,0" FontSize="35" Foreground="White" Text="Servisní linka:     +420 605 347 105" HorizontalAlignment="Left" FontFamily="Ebrima"/>
-                <TextBlock Height="Auto" Margin="80,50,0,0" FontSize="30" Foreground="White" Text="Mistie Guard je produkt naší spolěčnosti NP Software s.r.o.," HorizontalAlignment="Left" FontFamily="Ebrima"/>
-                <TextBlock Height="Auto" Margin="80,0,0,0" FontSize="30" Foreground="White" Text="který zajišťuje bezpečnost Vaší domácnosti a venkovních" HorizontalAlignment="Left" FontFamily="Ebrima"/>
-                <TextBlock Height="Auto" Margin="80,0,0,0" FontSize="30" Foreground="White" Text="prostor a umožňuje jejich jednoduché a efektivní ovládání." HorizontalAlignment="Left" FontFamily="Ebrima"/>
+                <TextBlock Height="Auto" FontSize="50" Foreground="White" Text="Informace o ---------" HorizontalAlignment="Center" FontFamily="Ebrima" FontWeight="Bold" TextDecorations="{x:Null}"/>
+                <TextBlock Height="Auto" Margin="96,50,0,0" FontSize="35" Foreground="White" Text="Název firmy:     " HorizontalAlignment="Left" FontFamily="Ebrima"/>
+                <TextBlock Height="Auto" Margin="173,0,0,0" FontSize="35" Foreground="White" Text="Adresa:    " HorizontalAlignment="Left" FontFamily="Ebrima"/>
+                <TextBlock Height="Auto" Margin="80,0,0,0" FontSize="35" Foreground="White" Text="Servisní linka:    " HorizontalAlignment="Left" FontFamily="Ebrima"/>
+                <TextBlock Height="Auto" Margin="80,50,0,0" FontSize="30" Foreground="White" HorizontalAlignment="Left" FontFamily="Ebrima"/>
+                <TextBlock Height="Auto" Margin="80,0,0,0" FontSize="30" Foreground="White" HorizontalAlignment="Left" FontFamily="Ebrima"/>
+                <TextBlock Height="Auto" Margin="80,0,0,0" FontSize="30" Foreground="White" HorizontalAlignment="Left" FontFamily="Ebrima"/>
             </StackPanel>
 
         </Border>

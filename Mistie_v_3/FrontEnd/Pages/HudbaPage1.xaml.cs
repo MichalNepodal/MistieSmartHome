@@ -21,9 +21,7 @@ namespace Mistie_v_3.FrontEnd.Pages
     /// </summary>
     public partial class HudbaPage1 : Page
     {
-       
-
-        //CLASS
+     
         MainWindow mainWindow;
         SpravceHudby spravceHudby;
 
@@ -33,17 +31,16 @@ namespace Mistie_v_3.FrontEnd.Pages
             this.spravceHudby = spravceHudby;
             InitializeComponent();
         }
+
         private void zpetButton_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.HomePage1();
         }
-
         private void spustitHudbuButton_Click(object sender, RoutedEventArgs e)
         {
             spravceHudby.PlayMusic();
             mainWindow.AktivitaButtonu();
         }
-
         private void vypnoutHudbuButton_Click(object sender, RoutedEventArgs e)
         {
             spravceHudby.StopMusic();

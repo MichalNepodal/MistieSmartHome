@@ -36,24 +36,22 @@ namespace Mistie_v_3.FrontEnd.Pages
             this.spravceZabezpeceni = spravceZabezpeceni;
             InitializeComponent();
         }
+
         private void aktivovatZabezpeceniButton_Click(object sender, RoutedEventArgs e)
         {            
             spravceZabezpeceni.AktivovatZabezpeceni();
             mainWindow.AktivitaButtonu();
         }
-
         private void deaktivovatZabezpeceniButton_Click(object sender, RoutedEventArgs e)
         {
             spravceZabezpeceni.DeaktivovatZabezpeceni();
             mainWindow.AktivitaButtonu();
         }
-
         private void HomeZabezpeceniButton_Click(object sender, RoutedEventArgs e)
         {
             spravceZabezpeceni.HomeZabezpeceniAktivovat();
             mainWindow.AktivitaButtonu();
         }
-
         private void poplachButton_Click(object sender, RoutedEventArgs e)
         {
             spravceZabezpeceni.PoplachTisen();

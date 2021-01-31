@@ -31,7 +31,6 @@ namespace Mistie_v_3.FrontEnd.Pages
         {
             //this.NavigationService.Navigate(zabezpeceniPage);
         }
-
         private void aktivovatZabezpeceniButton_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.AktivitaButtonu();
