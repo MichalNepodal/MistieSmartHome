@@ -14,7 +14,7 @@ namespace Mistie_v_3.BackEnd
     {
        
         MainWindow mainWindow;
-        List<string> seznamSignalu;
+        //List<string> seznamSignalu;
         SpravceCidel spravceCidel;
         HesloPage1 hesloPage1;
         SpravceHudby spravceHudby;
@@ -43,18 +43,18 @@ namespace Mistie_v_3.BackEnd
         {
             this.mainWindow = mainWindow;
             this.backGroundProcesy = backGroundProcesy;
-            seznamSignalu = new List<string>();
+            //seznamSignalu = new List<string>();
             NaruseniObjektuAktivovano = false;
             ZabezpeceniAktivovano = false;
             SleepRezimAktivovano = false;
             PoplachAktivovan = false;
             OdpocetAktivace = false;
-            Heslo = "0423";
+            Heslo = "0423"; // testovací
         }
 
 
-        // METODY VLASTNÍ    METODY VLASTNÍ
-        // METODY VLASTNÍ    METODY VLASTNÍ
+        // ARDUINO PŘÍJEM ZPRÁVY
+        // ARDUINO PŘÍJEM ZPRÁVY
         public void KontrolaZabezpeceni(string arduinoText)
         {
             if (arduinoText.Contains("p"))
@@ -84,14 +84,10 @@ namespace Mistie_v_3.BackEnd
             }
         }
 
-        // -------------------------------- ZABEZPEČENÍ     ZABEZPEČENÍ ---------------------------------------------
-        // -------------------------------- ZABEZPEČENÍ     ZABEZPEČENÍ ---------------------------------------------
+        // ZABEZPEČENÍ 
+        // ZABEZPEČENÍ 
 
-
-
-        // HESLO     HESLO
-        // HESLO     HESLO
-
+        // --- Kontrola Hesla
         public void KontrolaHesla(string cislo)
         {
             zadaneHeslo += cislo;
@@ -124,8 +120,6 @@ namespace Mistie_v_3.BackEnd
             hesloPage1.displayTextBlock.Text = "";
         }
 
-
-
         // ----- NARUŠENÍ, POPLACH ----
         private void NaruseniObjektu(string akce)
         {
@@ -133,7 +127,7 @@ namespace Mistie_v_3.BackEnd
             {
                 NaruseniObjektuAktivovano = true;
                 spravceCidel.ZmenaStavuNaruseni("on");                
-                mainWindow.HesloPageAktivni("on"); // otevřít hesloPage
+                mainWindow.HesloPageAktivni("on");
                 spravceCidel.SvetlaIN("chodba", "lustr", "on");
                 Thread.Sleep(22);                
                 Thread vlaknoOdpoctuPoplachu = new Thread(SpustitOdpocetPoplachu);
@@ -156,7 +150,7 @@ namespace Mistie_v_3.BackEnd
             spravceCidel.SvetlaIN("loznice", "lustr", "on");
             Thread.Sleep(22);
             spravceCidel.SvetlaIN("chodba", "lustr", "on");
-            Thread.Sleep(10000);
+            Thread.Sleep(5000);
 
             if (!NaruseniObjektuAktivovano)
             {
@@ -172,6 +166,7 @@ namespace Mistie_v_3.BackEnd
         private void SpustitPoplach()
         {
             spravceHudby.ZvukAlarm1();
+            MessageBox.Show("Odesílání SMS a volání");
         }
     
 
@@ -216,9 +211,9 @@ namespace Mistie_v_3.BackEnd
         }
         public void AktivovatZabezpeceniVlakno()
         {
-            //MessageBox.Show("Zabezpeceni za 3 sec.");
+            //MessageBox.Show("Zabezpeceni za 5 sec.");
             mainWindow.ZamekOpacity(1);
-            Thread.Sleep(3000);
+            Thread.Sleep(5000);
             ZabezpeceniAktivovano = true;
             OdpocetAktivace = false;
             StavZabezpeceni("plne", "on");
@@ -260,17 +255,14 @@ namespace Mistie_v_3.BackEnd
             }
             
             spravceCidel.SleepVlaknoAktivovat("off");
-            OdpocetAktivace = false;
-            
+            OdpocetAktivace = false;            
         }
-
         public void PoplachTisen()
         {
             SpustitPoplach();
         }
 
-        // METODA PO ZAPNUTÍ
-
+        // METODA PO BUILDU
         public void NactiSpravceCidel(SpravceCidel spravceCidel)
         {
             this.spravceCidel = spravceCidel;
@@ -284,6 +276,5 @@ namespace Mistie_v_3.BackEnd
         {
             this.spravceHudby = spravceHudby;
         }
-
     }
 }
