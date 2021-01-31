@@ -17,8 +17,8 @@ namespace Mistie_v_3.BackEnd
         PromptBuilder pb = new PromptBuilder();
         SpeechRecognitionEngine sre = new SpeechRecognitionEngine();
         Choices clist = new Choices();
-        // Speech To Text
 
+        //Class
         SpravceCidel spravceCidel;
         SpravceHudby spravceHudby;
         MainWindow mainWindow;
@@ -37,6 +37,8 @@ namespace Mistie_v_3.BackEnd
             OvladaniHlasemAktivovano = false;
         }
 
+        // AKTIVACE / DEAKTIVACE
+        // AKTIVACE / DEAKTIVACE
         public void ZapnoutOvladaniHlasem(string stav)
         {
             if(stav == "on")
@@ -54,7 +56,6 @@ namespace Mistie_v_3.BackEnd
                 }                    
             }
         }
-
         public void AktivovatOvladaniHlasem()
         {
             clist.Add(new string[] { "mistie", "televize", "on", "off", "light", "music", "nothing", "livingroom", "lampa", "strop", "dekoration", "everithing" });
@@ -76,17 +77,12 @@ namespace Mistie_v_3.BackEnd
             }
         }
 
-        // POSLOUCHÁ HLAS           POSLOUCHÁ HLAS           POSLOUCHÁ HLAS          POSLOUCHÁ HLAS 
-        // POSLOUCHÁ HLAS           POSLOUCHÁ HLAS           POSLOUCHÁ HLAS          POSLOUCHÁ HLAS 
-        // POSLOUCHÁ HLAS           POSLOUCHÁ HLAS           POSLOUCHÁ HLAS          POSLOUCHÁ HLAS 
-        // POSLOUCHÁ HLAS           POSLOUCHÁ HLAS           POSLOUCHÁ HLAS          POSLOUCHÁ HLAS 
-
-
+        // INTERNÍ METODA ANALÝZY HLASU
+        // INTERNÍ METODA ANALÝZY HLASU
         void AnalizaHlasu(object sender, SpeechRecognizedEventArgs e)
         {
             aktualniSlovo = e.Result.Text.ToString();
             //mainWindow.mistieSayTextBlock.Text = aktualniSlovo;
-
 
             if (!mistieLisening)
             {
@@ -127,26 +123,7 @@ namespace Mistie_v_3.BackEnd
                 }
             }
         }
-        private void Music(string slovo)
-        {
-            posledniSLovo = "music";
-            if (posledniSLovo == "music")
-            {
-                if (aktualniSlovo == "on")
-                {
-                    spravceHudby.PlaySayHudba();
-                    spravceHudby.PlayMusic();
-                    posledniSLovo = "";
-                    mistieLisening = false;
-                }
-                if (aktualniSlovo == "off")
-                {
-                    spravceHudby.StopMusic();
-                    posledniSLovo = "";
-                    mistieLisening = false;
-                }
-            }
-        }
+
         private void Light(string slovo)
         {
             if (aktualniSlovo == "light")
@@ -192,6 +169,26 @@ namespace Mistie_v_3.BackEnd
                         spravceCidel.SvetlaIN("obyvak", "lustr");
                         mistieLisening = false;
                     }
+                }
+            }
+        }
+        private void Music(string slovo)
+        {
+            posledniSLovo = "music";
+            if (posledniSLovo == "music")
+            {
+                if (aktualniSlovo == "on")
+                {
+                    spravceHudby.PlaySayHudba();
+                    spravceHudby.PlayMusic();
+                    posledniSLovo = "";
+                    mistieLisening = false;
+                }
+                if (aktualniSlovo == "off")
+                {
+                    spravceHudby.StopMusic();
+                    posledniSLovo = "";
+                    mistieLisening = false;
                 }
             }
         }

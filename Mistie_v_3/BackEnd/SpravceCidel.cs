@@ -12,6 +12,7 @@ namespace Mistie_v_3.BackEnd
 {
 
     //   ----- SVETLA   SVETLA    SVETLA -----
+    // Manuál příkazů
 
     //  0 - SvetloLustrPracovna - OFF
     //  1 - SvetloLustrPracovna - ON
@@ -27,9 +28,6 @@ namespace Mistie_v_3.BackEnd
     //  b - SvetloLustrObyvak - ON
     //  c - SvetloLustrLoznice - OFF
     //  d - SvetloLustrLoznice - ON
-
-    // ------------------------
-
     //  e - SvetloLampaLoznice - OFF
     //  f - SvetloLampaLoznice - ON
     //  g - SvetloLampaObyvak - OFF
@@ -42,7 +40,6 @@ namespace Mistie_v_3.BackEnd
     //  n - SvetloDekoraceObyvak - ON    
     //  o - SvetloDekoracePracovna - OFF
     //  p - SvetloDekoracePracovna - ON
-
     //  q - LustrPracovna - ON/OFF
     //  r - LustrChodba - ON/OFF
     //  s - LustrWc - ON/OFF
@@ -50,12 +47,9 @@ namespace Mistie_v_3.BackEnd
     //  u - LustrKuchyn - ON/OFF
     //  v - LustrObyvak - ON/OFF
     //  w - LustrLoznice - ON/OFF
-
     //  x - LedKuchyn - ON/OFF
     //  y - LampaObyvak - ON/OFF
     //  z - LampaLoznice - ON/OFF
-
-
     // A - DekoracePracovna - ON/OFF
     // B - DekoraceObyvak - ON/OFF  
     // C - DekoraceLoznice - ON/OFF  
@@ -74,13 +68,10 @@ namespace Mistie_v_3.BackEnd
         Thread vlaknoSleep;
         Thread odchodZDomuVlakno;
 
-        // ATRIBUTS
-        private string ArduinoText = "";
-        private int ArduinoTeplota = 0;
-        private int ArduinoVlhkost = 0;
+        private string ArduinoText { get; set; }
+        private int arduinoTeplota = 0;
+        private int arduinoVlhkost = 0;
 
-
-        // BOOLS
         private bool ZabezpeceniAktivovano { get; set; }
         private bool SleepRezimAktivovan { get; set; }
         private bool NaruseniObjektuAktivovano { get; set; }
@@ -95,22 +86,19 @@ namespace Mistie_v_3.BackEnd
             SleepRezimAktivovan = false;
             NaruseniObjektuAktivovano = false;
             PoplachAktivovan = false;
-            ZabezpeceniObjektOdesli();
+            ArduinoText = "";
+            ZabezpeceniObjektOdeslat();
             PripojitCidla();
             Thread.Sleep(400);
         }
 
 
-        // -------------------------------- ZABEZPEČENÍ     ZABEZPEČENÍ ---------------------------------------------
-        // -------------------------------- ZABEZPEČENÍ     ZABEZPEČENÍ ---------------------------------------------
+        // ZABEZPEČENÍ 
+        // ZABEZPEČENÍ 
 
         public void ZmenaStavuNaruseni(string stav)
         {
-            if (stav == "on")
-                NaruseniObjektuAktivovano = true;
-            else
-                NaruseniObjektuAktivovano = false;
-
+            NaruseniObjektuAktivovano = (stav == "on") ? true : false;
         }
 
         public void ZmenaStavuZabezpeceni(string typ, string stav) // stav on / off
@@ -144,7 +132,8 @@ namespace Mistie_v_3.BackEnd
             }
         }
 
-
+        // BUTTONS METODY
+        // BUTTONS METODY
         private void OdchodZDomuVlakno()
         {
             SvetlaIN("chodba", "", "on");
@@ -165,11 +154,6 @@ namespace Mistie_v_3.BackEnd
             SvetlaIN("chodba", "", "off");
             spravceZabezpeceni.AktivovatZabezpeceniVlakno();
         }
-        
-
-
-        //------------------------------------- BUTTONS  metody    BUTTONS metody    -------------------------------------------
-        //------------------------------------- BUTTONS  metody    BUTTONS metody    -------------------------------------------
         public void OdchodZDomuAktivovat(string stav)
         {
             if(stav == "on")
@@ -179,11 +163,9 @@ namespace Mistie_v_3.BackEnd
             }
             else if(stav == "off")
             {
-                if (odchodZDomuVlakno.IsAlive)
+                if (odchodZDomuVlakno != null || odchodZDomuVlakno.IsAlive)
                     odchodZDomuVlakno.Abort();
             }
-            
-            
         }
         public void PrichodDomuAktivovat()
         {           
@@ -191,21 +173,7 @@ namespace Mistie_v_3.BackEnd
             SvetlaIN("kuchyn", "", "on");
             Thread.Sleep(22);
             SvetlaIN("chodba", "", "on");            
-        }
-        public void SleepVlaknoAktivovat(string stav)
-        {            
-            if(stav == "on")
-            {
-                vlaknoSleep = new Thread(SleepVlakno);
-                vlaknoSleep.Start();
-            }
-            else if(stav == "off")
-            {
-                if(vlaknoSleep != null && vlaknoSleep.IsAlive)
-                    vlaknoSleep.Abort();
-            }            
-        }
-        
+        }             
         public void CollectionPracovnaPrace()
         {
             Thread.Sleep(22);
@@ -241,79 +209,28 @@ namespace Mistie_v_3.BackEnd
             SvetlaIN("obyvak", "", "on");
         }
 
-        // --- PŘICHOTÍ METODY     PŘICHOTÍ METODY --- ZABEZPEČENÍ
+        // INTERNÍ METODY 
+        // INTERNÍ METODY 
 
-
-
-
-        //------------------------------------------  VLASTNÍ METODY     VLASTNÍ METODY   ------------------------------------------  
-        //------------------------------------------  VLASTNÍ METODY     VLASTNÍ METODY   ------------------------------------------  
-
+        public void SleepVlaknoAktivovat(string stav)
+        {
+            if (stav == "on")
+            {
+                vlaknoSleep = new Thread(SleepVlakno);
+                vlaknoSleep.Start();
+            }
+            else if (stav == "off")
+            {
+                if (vlaknoSleep != null && vlaknoSleep.IsAlive)
+                    vlaknoSleep.Abort();
+            }
+        }
 
         // SVĚTLO ----------  SVĚTLO
         // SVĚTLO ----------  SVĚTLO
 
         
-        public void SvetlaINAuto(string mistnost, string druhSvetla) // zašle Arduinu zprávu jako vypínač a to automaticky vypne, nebo zapne světlo podle boolu Arduina.
-        {
-            if(mistnost == "pracovna")
-            {
-                switch (druhSvetla)
-                {
-                    case "lustr":
-                        serialPort.Write("q");
-                        Thread.Sleep(22);
-                        break;
-                }
-            }
-            if (mistnost == "chodba")
-            {
-                serialPort.Write("r");
-                Thread.Sleep(22);
-                return;
-            }                
-            if (mistnost == "wc")
-            {
-                serialPort.Write("s");
-                Thread.Sleep(22);
-                return;
-            }
-            if (mistnost == "koupelna")
-            {
-                serialPort.Write("t");
-                MessageBox.Show("koupelna slyšela, odešlo do arduina");
-                Thread.Sleep(22);
-                return;
-            }
-            if (mistnost == "kuchyn")
-            {
-                serialPort.Write("u");
-                Thread.Sleep(22);
-                return;
-            }
-            if (mistnost == "obyvak")
-            {
-                switch (druhSvetla)
-                {
-                    case "lustr":
-                        serialPort.Write("v");
-                        Thread.Sleep(22);
-                        break;
-                }
-            }
-            if (mistnost == "loznice")
-            {
-                switch (druhSvetla)
-                {
-                    case "lustr":
-                        serialPort.Write("w");
-                        MessageBox.Show("obyvak slyšel, odešlo do arduina");
-                        Thread.Sleep(22);
-                        break;
-                }
-            }
-        }
-        public void SvetlaIN(string mistnost, string druhSvetla, string akce = "off")
+        public void SvetlaIN(string mistnost, string druhSvetla, string akce = "off") // ZAŠLE PŘÍMÝ ROZKAZ K VYPNUTÍ NEBO ZAPNUTÍ SVĚTEL.
         {
 
             if (mistnost == "vse")
@@ -358,6 +275,65 @@ namespace Mistie_v_3.BackEnd
                 case "loznice":
                     PrepniSvetlaLozniceLustr(akce);
                     break;
+            }
+        }
+        public void SvetlaINAuto(string mistnost, string druhSvetla) // zašle Arduinu zprávu jako vypínač a to automaticky vypne, nebo zapne světlo podle boolu Arduina.
+        {
+            if (mistnost == "pracovna")
+            {
+                switch (druhSvetla)
+                {
+                    case "lustr":
+                        serialPort.Write("q");
+                        Thread.Sleep(22);
+                        break;
+                }
+            }
+            if (mistnost == "chodba")
+            {
+                serialPort.Write("r");
+                Thread.Sleep(22);
+                return;
+            }
+            if (mistnost == "wc")
+            {
+                serialPort.Write("s");
+                Thread.Sleep(22);
+                return;
+            }
+            if (mistnost == "koupelna")
+            {
+                serialPort.Write("t");
+                MessageBox.Show("koupelna slyšela, odešlo do arduina");
+                Thread.Sleep(22);
+                return;
+            }
+            if (mistnost == "kuchyn")
+            {
+                serialPort.Write("u");
+                Thread.Sleep(22);
+                return;
+            }
+            if (mistnost == "obyvak")
+            {
+                switch (druhSvetla)
+                {
+                    case "lustr":
+                        serialPort.Write("v");
+                        Thread.Sleep(22);
+                        break;
+                }
+            }
+            if (mistnost == "loznice")
+            {
+                switch (druhSvetla)
+                {
+                    case "lustr":
+                        serialPort.Write("w");
+                        MessageBox.Show("obyvak slyšel, odešlo do arduina");
+                        Thread.Sleep(22);
+                        break;
+                }
             }
         }
         private void PrepniSvetlaPracovnaLustr(string akce)
@@ -456,14 +432,9 @@ namespace Mistie_v_3.BackEnd
             Thread.Sleep(10000);
             SvetlaIN("kuchyn", "", "off");
         }
-        public void DeaktivaceSleepVlakna()
-        {
 
-        }
-
-
-        //------------------------------------------  ARDUINO     ARDUINO   ------------------------------------------  
-        //------------------------------------------  ARDUINO     ARDUINO   ------------------------------------------  
+        // AEDUINO METODY 
+        // AEDUINO METODY 
 
         private void CtiArduino(object sender, EventArgs e) // metoda, která čte zprávu z arduina
         {
@@ -482,24 +453,24 @@ namespace Mistie_v_3.BackEnd
                 // TEPLOTA
                 if (ArduinoText.Length == 12 && ArduinoText.Contains("t") && ArduinoText.Contains("v"))
                 {
-                    int.TryParse(ArduinoText.Substring(1, 2), out ArduinoTeplota);
-                    int.TryParse(ArduinoText.Substring(7, 2), out ArduinoVlhkost);
+                    int.TryParse(ArduinoText.Substring(1, 2), out arduinoTeplota);
+                    int.TryParse(ArduinoText.Substring(7, 2), out arduinoVlhkost);
                 }
             }                
         }
 
         public int VratTeplotu()
         {
-            return ArduinoTeplota;
+            return arduinoTeplota;
         }
         public int VratVlhkost()
         {
-            return ArduinoVlhkost;
+            return arduinoVlhkost;
         }
 
 
-        // ----------------------------------- METODY PŘI VYTVOŘENÍ       METODY PŘI VYTVOŘENÍ   -----------------------------------
-        // ----------------------------------- METODY PŘI VYTVOŘENÍ       METODY PŘI VYTVOŘENÍ   -----------------------------------
+        // METODY PŘI BUILDU
+        // METODY PŘI BUILDU
 
         private void PripojitCidla()  // PŘIPOJENÍ K DESCE ARDUINO
         {
@@ -512,7 +483,6 @@ namespace Mistie_v_3.BackEnd
                 MessageBox.Show("ARDUINO\n\nÚspěšné navázání komunikace s USB portem. \nArduino deska PŘIPOJENA, Mistie připravena k odesílání příkazů desce Arduino.");
                 AktivaceCteniArduino();
                 MessageBox.Show("ARDUINO\n\nAktivováno čtení z desky Arduino. \nMistie naslouchá informacím z desky Arduino.");                
-                //DefaultniNastaveniCidel();
             }
             catch (Exception ex)
             {
@@ -535,7 +505,7 @@ namespace Mistie_v_3.BackEnd
 
             }
         }
-        private void ZabezpeceniObjektOdesli()
+        private void ZabezpeceniObjektOdeslat()
         {
             spravceZabezpeceni.NactiSpravceCidel(this);
         }
