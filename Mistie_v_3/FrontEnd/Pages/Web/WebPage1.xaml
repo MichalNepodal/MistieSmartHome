@@ -1,0 +1,15 @@
+﻿<Page x:Class="Mistie_v_3.FrontEnd.Pages.Web.WebPage1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Mistie_v_3.FrontEnd.Pages.Web"
+      mc:Ignorable="d" 
+      d:DesignHeight="710" d:DesignWidth="930"
+      Title="WebPage1" Background="#FFFDFDFD">
+
+    <Grid>
+        <WebBrowser x:Name="web" Source="http://www.google.com"/>
+
+    </Grid>
+</Page>

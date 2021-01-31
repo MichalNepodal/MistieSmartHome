@@ -1,0 +1,60 @@
+﻿<Page x:Class="Mistie_v_3.FrontEnd.Pages.DomacnostCollectionPage2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Mistie_v_3.FrontEnd.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="710" d:DesignWidth="930"
+      Title="DomacnostCollectionPage2">
+
+    <Grid Background="{x:Null}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="305*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" MinWidth="465"/>
+            <ColumnDefinition Width="*" MinWidth="465"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Margin="0,150,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <Button x:Name="hudbaButton" Content="Dětský pokoj 1" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontFamily="Arial" FontSize="45" Width="377" Height="150" HorizontalAlignment="Stretch" FontWeight="Bold" Click="hudbaButton_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+
+            <Button x:Name="svetlaButton" Content="Kniha" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="50" Width="377" Height="150" Margin="0,20,0,0" Foreground="#E5FFFFFF" FontWeight="Bold" BorderBrush="{x:Null}">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+
+            <Button x:Name="collectionButton" Content="Hobby" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="50" Width="377" Height="150" Margin="0,20,0,0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Margin="20,150,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Button Content="Dětský pokoj 2" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" >
+                <Button.Background>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+
+            <Button Content="Koupel" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="50" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+
+            <Button x:Name="nic1" Content="Párty" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="50" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" >
+                <Button.Background>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Page>

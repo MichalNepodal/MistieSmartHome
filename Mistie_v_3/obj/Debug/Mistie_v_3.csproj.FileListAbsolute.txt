@@ -1,0 +1,228 @@
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\bin\Debug\Mistie_v_3.exe.config
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\bin\Debug\Mistie_v_3.exe
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\bin\Debug\Mistie_v_3.pdb
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\Mistie_v_3.csprojAssemblyReference.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\MainWindow.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\App.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\Mistie_v_3_MarkupCompile.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\Mistie_v_3_MarkupCompile.lref
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\MainWindow.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\Mistie_v_3.g.resources
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\Mistie_v_3.Properties.Resources.resources
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\Mistie_v_3.csproj.GenerateResource.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\Mistie_v_3.csproj.CoreCompileInputs.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\Mistie_v_3.exe
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\Mistie_v_3.pdb
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\DomacnostPage.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\DomacnostPage.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\HudbaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\HudbaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\MistiePage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\MistiePage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\ZabezpeceniPage.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\ZabezpeceniPage.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaPageIN1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaPageIN1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaINObyvakPage.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaINObyvakPage.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\NastaveniPage.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\NastaveniPage.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\DomacnostPage2.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\DomacnostPage2.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaCollectionPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaCollectionPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\DomacnostCollectionPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\DomacnostCollectionPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\DomacnostCollectionPage2.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\DomacnostCollectionPage2.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\ZabezpeceniCollectionPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\ZabezpeceniCollectionPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\InformaceTvurcePage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\InformaceTvurcePage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaLoznicePage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaLoznicePage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaKuchynPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaKuchynPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaPokoj1Page1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaPokoj1Page1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaPokoj2Page1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_3\Mistie_v_3\obj\Debug\FrontEnd\Pages\SvetlaPokoj2Page1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\bin\Debug\Mistie_v_3.exe.config
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\bin\Debug\Mistie_v_3.exe
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\bin\Debug\Mistie_v_3.pdb
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\Mistie_v_3.csprojAssemblyReference.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\InformaceTvurcePage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\HudbaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\MainWindow.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\App.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\Mistie_v_3_MarkupCompile.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\Mistie_v_3_MarkupCompile.lref
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\InformaceTvurcePage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\HudbaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\MainWindow.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\Mistie_v_3.g.resources
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\Mistie_v_3.Properties.Resources.resources
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\Mistie_v_3.csproj.GenerateResource.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\Mistie_v_3.csproj.CoreCompileInputs.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\Mistie_v_3.exe
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\Mistie_v_3.pdb
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaCollectionPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaKuchynPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaLoznicePage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPageIN1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaChodbaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaKoupelnaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaWCPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaObyvakPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaCollectionPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaObyvakPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaKuchynPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaLoznicePage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPageIN1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaChodbaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaKoupelnaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaWCPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostCollectionPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostCollectionPage2.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostPage.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostPage2.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Nastaveni\MistiePage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Nastaveni\NastaveniPage.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\ZabezpeceniCollectionPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\ZabezpeceniPage.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostCollectionPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostCollectionPage2.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostPage.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostPage2.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Nastaveni\MistiePage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Nastaveni\NastaveniPage.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\ZabezpeceniCollectionPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\ZabezpeceniPage.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\HesloPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_5 - 15.1.2021 - organizace složek\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\HesloPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\bin\Debug\Mistie_v_3.exe.config
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\bin\Debug\Mistie_v_3.exe
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\bin\Debug\Mistie_v_3.pdb
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3.csprojAssemblyReference.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostCollectionPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostCollectionPage2.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\InformaceTvurcePage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaCollectionPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostPage.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostPage2.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\HudbaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Nastaveni\MistiePage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Nastaveni\NastaveniPage.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaObyvakPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaKuchynPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaLoznicePage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPageIN1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaChodbaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaKoupelnaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaWCPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\HesloPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\ZabezpeceniCollectionPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\ZabezpeceniPage.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\MainWindow.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\App.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3_MarkupCompile.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3_MarkupCompile.lref
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostCollectionPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostCollectionPage2.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\InformaceTvurcePage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaCollectionPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostPage.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostPage2.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\HudbaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Nastaveni\MistiePage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Nastaveni\NastaveniPage.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaObyvakPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaKuchynPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaLoznicePage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPageIN1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaChodbaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaKoupelnaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaWCPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\HesloPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\ZabezpeceniCollectionPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\ZabezpeceniPage.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\MainWindow.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3.g.resources
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3.Properties.Resources.resources
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3.csproj.GenerateResource.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3.csproj.CoreCompileInputs.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3.exe
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3.pdb
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Home\HomePage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_6_23_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Home\HomePage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\bin\Debug\Mistie_v_3.exe.config
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\bin\Debug\Mistie_v_3.exe
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\bin\Debug\Mistie_v_3.pdb
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3.csprojAssemblyReference.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostCollectionPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostCollectionPage2.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Home\HomePage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\InformaceTvurcePage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaCollectionPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostPage.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostPage2.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\HudbaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Nastaveni\MistiePage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Nastaveni\NastaveniPage.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaObyvakPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaKuchynPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaLoznicePage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPageIN1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaChodbaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaKoupelnaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaWCPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\HesloPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\ZabezpeceniCollectionPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\ZabezpeceniPage.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\MainWindow.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\App.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3_MarkupCompile.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3_MarkupCompile.lref
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostCollectionPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostCollectionPage2.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Home\HomePage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\InformaceTvurcePage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaCollectionPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostPage.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Domacnost\DomacnostPage2.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\HudbaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Nastaveni\MistiePage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Nastaveni\NastaveniPage.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaObyvakPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaKuchynPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaLoznicePage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPageIN1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaChodbaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaKoupelnaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaWCPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\HesloPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\ZabezpeceniCollectionPage1.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Zabezpeceni\ZabezpeceniPage.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\MainWindow.baml
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3.g.resources
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3.Properties.Resources.resources
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3.csproj.GenerateResource.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3.csproj.CoreCompileInputs.cache
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3.exe
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\Mistie_v_3.pdb
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Web\WebPage1.g.cs
+D:\C# učím se programovat 8.2020\WPF Aplikace (windows)\Mistie_v_7_26_1_2021_NovyFrontEnd\Mistie_v_3\obj\Debug\FrontEnd\Pages\Web\WebPage1.baml

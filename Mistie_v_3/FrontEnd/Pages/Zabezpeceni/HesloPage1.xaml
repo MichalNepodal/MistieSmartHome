@@ -1,0 +1,99 @@
+﻿<Page x:Class="Mistie_v_3.FrontEnd.Pages.Zabezpeceni.HesloPage1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Mistie_v_3.FrontEnd.Pages.Zabezpeceni"
+      mc:Ignorable="d" 
+      d:DesignHeight="710" d:DesignWidth="930"
+      Title="HesloPage1">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="84*"/>
+            <RowDefinition Height="271*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="51*"/>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="51*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" Margin="20,80,20,0">
+            <TextBlock x:Name="displayTextBlock" TextWrapping="Wrap" Text="* * * *" Height="92" FontSize="100" FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" Padding="0" FontFamily="Franklin Gothic Heavy" Foreground="White" >
+                <TextBlock.Background>
+                    <SolidColorBrush Color="White" Opacity="0.5"/>
+                </TextBlock.Background>
+            </TextBlock>
+
+
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <Button x:Name="cislo1Button" Content="1" Height="97" Margin="20,30,20,0" Click="cislo1Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0.5"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="cislo4Button" Content="4" Height="97" Margin="20,30,20,0" Click="cislo4Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0.5"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="cislo7Button" Content="7" Height="97" Margin="20,30,20,0" Click="cislo7Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0.5"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+
+        <StackPanel Grid.Column="2" Grid.Row="1">
+            <Button x:Name="cislo2Button" Content="2" Height="97" Margin="20,30,20,0" Click="cislo2Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0.5"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="cislo5Button" Content="5" Height="97" Margin="20,30,20,0" Click="cislo5Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0.5"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="cislo8Button" Content="8" Height="97" Margin="20,30,20,0" Click="cislo8Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0.5"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="cislo0Button" Content="0" Height="97" Margin="20,30,20,0" Click="cislo0Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0.5"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+
+        <StackPanel Grid.Column="3" Grid.Row="1">
+            <Button x:Name="cislo3Button" Content="3" Height="97" Margin="20,30,20,0" Click="cislo3Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0.5"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="cislo6Button" Content="6" Height="97" Margin="20,30,20,0" Click="cislo6Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0.5"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="cislo9Button" Content="9" Height="97" Margin="20,30,20,0" Click="cislo9Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0.5"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="vynulovatHesloButton" Content="&lt;&lt;" Height="97" Margin="20,30,20,0" Click="vynulovatHesloButton_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0.5"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Page>
