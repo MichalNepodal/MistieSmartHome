@@ -56,7 +56,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="BackEnd\ArduinoCtecka.cs" />
     <Compile Include="BackEnd\BackGroundProcesy.cs" />
     <Compile Include="BackEnd\SpravceZabezpeceni.cs" />
     <Compile Include="FrontEnd\Pages\Domacnost\DomacnostCollectionPage1.xaml.cs">

@@ -12,10 +12,6 @@ namespace Mistie_v_3.BackEnd
 {
     public class BackGroundProcesy
     {
-
-        // CLASS
-
-
         // PAGES
         MainWindow mainWindow;
         HomePage1 homePage1;
@@ -24,8 +20,7 @@ namespace Mistie_v_3.BackEnd
         // Vlakno
         Thread VlaknoAktivitaButtonu;
 
-        //private bool aktivitaButtonu;
-        private int aktivitaButtonuCislo = 0;
+        private int AktivitaButtonuCislo { get; set; }
 
         private bool PoplachAktivovan { get; set; }
 
@@ -36,6 +31,35 @@ namespace Mistie_v_3.BackEnd
             PoplachAktivovan = false;            
         }
 
+        // AKTIVITA BUTTONU 
+        // AKTIVITA BUTTONU 
+        public void AktivitaButtonu()
+        {
+            if(VlaknoAktivitaButtonu == null || !VlaknoAktivitaButtonu.IsAlive)
+            {
+                AktivitaButtonuCislo = 30;
+                VlaknoAktivitaButtonu = new Thread(OdpocitavaniAktivitiyButtonu);
+                VlaknoAktivitaButtonu.IsBackground = true;
+                VlaknoAktivitaButtonu.Start();
+            }
+            else
+            {
+                AktivitaButtonuCislo = 30;
+            }                
+        }
+        private void OdpocitavaniAktivitiyButtonu()
+        {
+            while (AktivitaButtonuCislo > 0)
+            {
+                Thread.Sleep(2000);
+                AktivitaButtonuCislo -= 10;
+            }
+            if(!PoplachAktivovan)
+                mainWindow.HomePage1Vlakno();
+        }
+
+        // INTERNÍ METODY 
+        // INTERNÍ METODY 
         public void ZmenaStavuPoplachu(string stav)
         {
             if (stav == "on")
@@ -43,50 +67,10 @@ namespace Mistie_v_3.BackEnd
             else
                 PoplachAktivovan = false;
         }
-
-
-        public void AktivitaButtonu()
-        {
-            if(VlaknoAktivitaButtonu == null || !VlaknoAktivitaButtonu.IsAlive)
-            {
-                aktivitaButtonuCislo = 30;
-                VlaknoAktivitaButtonu = new Thread(OdpocitavaniAktivitiyButtonu);
-                VlaknoAktivitaButtonu.IsBackground = true;
-                VlaknoAktivitaButtonu.Start();
-            }
-            else
-            {
-                aktivitaButtonuCislo = 30;
-            }                
-        }
-        private void OdpocitavaniAktivitiyButtonu()
-        {
-            while (aktivitaButtonuCislo > 0)
-            {
-                Thread.Sleep(2000);
-                aktivitaButtonuCislo -= 10;
-            }
-            if(!PoplachAktivovan)
-                mainWindow.HomePage1Vlakno();
-        }
-
-
-
-        
-
-
-
-
-
-
-        // TIME    TIME    TIME
-        // TIME    TIME    TIME
-        // TIME    TIME    TIME
-
         private void AutomatickaAktualizace(object sender, EventArgs e)
         {
             mainWindow.casTextBlock.Text = VratAktualniCas();
-            //homePage1.AktualizovatTeplotu();
+            //homePage1.AktualizovatTeplotu();     // Dočasně vypnuto z důvodu nepřítomnosti ArduinoDesky
             
         }
         public string VratAktualniCas()
@@ -99,8 +83,6 @@ namespace Mistie_v_3.BackEnd
             string aktualniCas = datumCas.Day + "." + datumCas.Month + "." + datumCas.Year + "   " + datumCas.Hour + ":" + minuty;
             return aktualniCas;
         }
-
-
 
         // METODY PŘI BUILDU
         // METODY PŘI BUILDU
