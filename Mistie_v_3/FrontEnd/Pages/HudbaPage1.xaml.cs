@@ -35,7 +35,7 @@ namespace Mistie_v_3.FrontEnd.Pages
         }
         private void zpetButton_Click(object sender, RoutedEventArgs e)
         {
-            mainWindow.DomacnostPage();
+            mainWindow.HomePage1();
         }
 
         private void spustitHudbuButton_Click(object sender, RoutedEventArgs e)

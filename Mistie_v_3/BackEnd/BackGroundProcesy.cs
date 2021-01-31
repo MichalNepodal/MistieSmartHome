@@ -33,8 +33,7 @@ namespace Mistie_v_3.BackEnd
         public BackGroundProcesy(MainWindow mainWindow)
         {
             this.mainWindow = mainWindow;
-            PoplachAktivovan = false;
-            AktivaceAktualizaceCasu();
+            PoplachAktivovan = false;            
         }
 
         public void ZmenaStavuPoplachu(string stav)
@@ -52,6 +51,7 @@ namespace Mistie_v_3.BackEnd
             {
                 aktivitaButtonuCislo = 30;
                 VlaknoAktivitaButtonu = new Thread(OdpocitavaniAktivitiyButtonu);
+                VlaknoAktivitaButtonu.IsBackground = true;
                 VlaknoAktivitaButtonu.Start();
             }
             else
@@ -86,7 +86,7 @@ namespace Mistie_v_3.BackEnd
         private void AutomatickaAktualizace(object sender, EventArgs e)
         {
             mainWindow.casTextBlock.Text = VratAktualniCas();
-            homePage1.AktualizovatTeplotu();
+            //homePage1.AktualizovatTeplotu();
             
         }
         public string VratAktualniCas()
@@ -104,7 +104,7 @@ namespace Mistie_v_3.BackEnd
 
         // METODY PŘI BUILDU
         // METODY PŘI BUILDU
-        private void AktivaceAktualizaceCasu()
+        public void AktivaceAktualizaceCasu()
         {
             try
             {

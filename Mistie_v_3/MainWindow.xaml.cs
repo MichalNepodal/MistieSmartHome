@@ -88,7 +88,7 @@ namespace Mistie_v_3
 
 
 
-            spravceCidel = new SpravceCidel(this, spravceZabezpeceni);
+            spravceCidel = new SpravceCidel(this, spravceZabezpeceni, backGroundProcesy);
             spravceHudby = new SpravceHudby(spravceZabezpeceni);
             mistie = new Mistie(this, spravceCidel, spravceHudby);            
             domacnostPage = new DomacnostPage(this, spravceCidel, spravceZabezpeceni);

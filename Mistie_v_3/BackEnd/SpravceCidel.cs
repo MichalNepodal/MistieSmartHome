@@ -67,6 +67,7 @@ namespace Mistie_v_3.BackEnd
         // CLASS
         MainWindow mainWindow;
         SpravceZabezpeceni spravceZabezpeceni;
+        BackGroundProcesy backGroundProcesy;
         SerialPort serialPort = new SerialPort();  // připojení k Arduino desce.
 
         //Vlakno
@@ -85,10 +86,11 @@ namespace Mistie_v_3.BackEnd
         private bool NaruseniObjektuAktivovano { get; set; }
         private bool PoplachAktivovan { get; set; }
 
-        public SpravceCidel(MainWindow mainWindow, SpravceZabezpeceni spravceZabezpeceni)
+        public SpravceCidel(MainWindow mainWindow, SpravceZabezpeceni spravceZabezpeceni, BackGroundProcesy backGroundProcesy)
         {
             this.mainWindow = mainWindow;
             this.spravceZabezpeceni = spravceZabezpeceni;
+            this.backGroundProcesy = backGroundProcesy;
             ZabezpeceniAktivovano = false;
             SleepRezimAktivovan = false;
             NaruseniObjektuAktivovano = false;
@@ -509,14 +511,14 @@ namespace Mistie_v_3.BackEnd
                 Thread.Sleep(300);
                 MessageBox.Show("ARDUINO\n\nÚspěšné navázání komunikace s USB portem. \nArduino deska PŘIPOJENA, Mistie připravena k odesílání příkazů desce Arduino.");
                 AktivaceCteniArduino();
-                MessageBox.Show("ARDUINO\n\nAktivováno čtení z desky Arduino. \nMistie naslouchá informacím z desky Arduino.");
-
+                MessageBox.Show("ARDUINO\n\nAktivováno čtení z desky Arduino. \nMistie naslouchá informacím z desky Arduino.");                
                 //DefaultniNastaveniCidel();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Vyjímka:\n\n" + ex.Message + "\n\nNepodařilo se připojit program k desce Arduino. Zkontrolujte prosím správné připojení tabletu pomocí USB k desce Arduino.?\nProgram bude i přesto spuštěn ale nebude komunikovat s deskou Arduino.\n\nProsím restartujte Vaše zařízení, nebo kontaktujte servisní linku MN Software s.r.o. na tel. čísle +420 605 347 105");
             }
+            backGroundProcesy.AktivaceAktualizaceCasu();
         }
         private void AktivaceCteniArduino() // Automatické opakování čtení zpáv z Arduina
         {

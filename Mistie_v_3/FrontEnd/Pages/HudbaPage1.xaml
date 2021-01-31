@@ -17,14 +17,19 @@
             <ColumnDefinition Width="465*"/>
         </Grid.ColumnDefinitions>
 
+        <StackPanel Grid.Column="0" Margin="10,180,410,120">
+            <Button x:Name="zpetButton" Content="&lt;" Width="Auto" Height="411" Background="{x:Null}" Foreground="White" FontSize="80" BorderBrush="{x:Null}" Click="zpetButton_Click"/>
+
+        </StackPanel>
+        
         <StackPanel Grid.Column="0" Margin="0,150,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
-            <Button x:Name="spustitHudbuButton" Padding="210,80,0,0" Content="" BorderBrush="#B20C7DCB" Foreground="#E5FFFFFF" FontFamily="Arial" FontSize="45" Width="377" Height="150" HorizontalAlignment="Stretch" FontWeight="Bold" Click="spustitHudbuButton_Click">
+            <Button x:Name="spustitHudbuButton" Padding="210,80,0,0" Content="" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontFamily="Arial" FontSize="45" Width="377" Height="150" HorizontalAlignment="Stretch" FontWeight="Bold" Click="spustitHudbuButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/prehratBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="svetlaButton" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="80" Width="377" Height="150" Margin="0,20,0,0" Foreground="#E5FFFFFF" FontWeight="Bold" BorderBrush="#FF0D396E">
+            <Button x:Name="svetlaButton" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="80" Width="377" Height="150" Margin="0,20,0,0" Foreground="#E5FFFFFF" FontWeight="Bold" BorderBrush="{x:Null}">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill" Viewbox="0,-0.06,1,1"/>
                 </Button.Background>
@@ -32,13 +37,13 @@
 
         </StackPanel>
         <StackPanel Grid.Column="1" Margin="20,150,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button x:Name="vypnoutHudbuButton" Padding="130,80,0,0" Content="" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="#CC706565" Foreground="#E5FFFFFF" FontWeight="Bold" Click="vypnoutHudbuButton_Click" >
+            <Button x:Name="vypnoutHudbuButton" Padding="130,80,0,0" Content="" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="vypnoutHudbuButton_Click" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/vypnoutBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button Content="" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="80" Width="377" Height="150" BorderBrush="#CC6C1818" Foreground="#E5FFFFFF" FontWeight="Bold">
+            <Button Content="" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="80" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
                 </Button.Background>
