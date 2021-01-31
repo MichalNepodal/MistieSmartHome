@@ -85,9 +85,6 @@ namespace Mistie_v_3
             svetlaKuchynPage1 = new SvetlaKuchynPage1(this, spravceCidel);
             svetlaObyvakPage1 = new SvetlaObyvakPage1(this, spravceCidel);
             svetlaLoznicePage1 = new SvetlaLoznicePage1(this, spravceCidel);
-
-
-
             spravceCidel = new SpravceCidel(this, spravceZabezpeceni, backGroundProcesy);
             spravceHudby = new SpravceHudby(spravceZabezpeceni);
             mistie = new Mistie(this, spravceCidel, spravceHudby);            
@@ -114,17 +111,13 @@ namespace Mistie_v_3
         }
 
 
-
-
         public void AktivitaButtonu()
         {
             backGroundProcesy.AktivitaButtonu();
         }
 
-        // BUTTONS METODY    BUTTONS METODY    BUTTONS METODY
-        // BUTTONS METODY    BUTTONS METODY    BUTTONS METODY
-        // BUTTONS METODY    BUTTONS METODY    BUTTONS METODY
-
+        // BUTTONS METODY
+        // BUTTONS METODY
         private void informaceButton_Click(object sender, RoutedEventArgs e)
         {
             InformaceTvurcePage1();
@@ -153,14 +146,8 @@ namespace Mistie_v_3
             AktivitaButtonu();
         }
 
-
-
-
-
-        // CHANGE FRAME PAGE   CHANGE FRAME PAGE
-        // CHANGE FRAME PAGE   CHANGE FRAME PAGE
-        // CHANGE FRAME PAGE   CHANGE FRAME PAGE
-
+        // CHANGE FRAME PAGE
+        // CHANGE FRAME PAGE
         public void HomePage1()
         {
             mainWindowFrame.NavigationService.Navigate(homePage1);
@@ -267,7 +254,7 @@ namespace Mistie_v_3
             mainWindowFrame.NavigationService.Navigate(hudbaPage1);
             AktivitaButtonu();
         }
-        public void HomePage1Vlakno() // aktivuje ji vlákno, kter= odpočítává aktivitu buttonu, po nějaké době neaktivity.
+        public void HomePage1Vlakno() // aktivuje ji vlákno, které odpočítává aktivitu buttonu, po nějaké době neaktivity.
         {
             this.Dispatcher.Invoke(() => { mainWindowFrame.NavigationService.Navigate(homePage1); });
         }
@@ -277,10 +264,8 @@ namespace Mistie_v_3
         //}
 
 
-
-        // METODY PŘÍCHOZÍ    METODY PŘÍCHOZÍ    
-        // METODY PŘÍCHOZÍ    METODY PŘÍCHOZÍ    
-
+        // PRICHOZÍ METODY   
+        // PRICHOZÍ METODY   
         public void HesloPageAktivni(string stav)
         {
             if (stav == "on")
@@ -291,7 +276,7 @@ namespace Mistie_v_3
             else
                 HomePage1();
         }
-        public void ZamekOpacity(double hodnota) // Dispatcher.Invoke - vedlejší vlákno předá úkol hlavnímu vláknu, protožejen hlavní může upravovat vlastnosti WPF (protože havní vlákno tyto vlastnosti vytvořilo). Jen tvůrce je může upravovat. 
+        public void ZamekOpacity(double hodnota) // Dispatcher.Invoke - vedlejší vlákno předá úkol hlavnímu vláknu, protožejen hlavní může upravovat vlastnosti WPF (protože havní vlákno tyto vlastnosti vytvořilo). Jen tvůrce je může editovat. 
         {
             if(hodnota == 1)
                 this.Dispatcher.Invoke(() => { zamekONOFFBorder.Opacity = 1; });
