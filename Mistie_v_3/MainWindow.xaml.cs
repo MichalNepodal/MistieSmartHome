@@ -297,5 +297,10 @@ namespace Mistie_v_3
             else
                 this.Dispatcher.Invoke(() => { HomeZabezpeceniBorder.Opacity = 0.1; });
         }
+
+        private void autorTextLabel_Click(object sender, RoutedEventArgs e)
+        {
+            InformaceTvurcePage1();
+        }
     }
 }

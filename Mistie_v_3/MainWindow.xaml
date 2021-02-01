@@ -101,7 +101,7 @@
             <!--<Label Content="Mistie say : " Foreground="White" Width="178" FontSize="35" Padding="0,20,0,0" Margin="10,0,0,0" FontFamily="Dubai Light"/>  
             <TextBlock x:Name="mistieSayTextBlock" TextWrapping="Wrap" Foreground="White" Width="507" FontSize="35" Padding="0,20,0,0" Margin="0,0,0,0" VerticalAlignment="Stretch"/>    -->
 
-            <Label x:Name="autorTextLabel" Width="Auto" Content="www.mnsoftware.cz" Margin="20,0,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontSize="30" Foreground="White" FontFamily="Century Gothic"/>
+            <Button x:Name="autorTextLabel" Width="Auto" Content="www.mnsoftware.cz" Style="{StaticResource SomeButtonStyle}" Margin="20,0,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontSize="30" Foreground="White" FontFamily="Century Gothic" Background="{x:Null}" Click="autorTextLabel_Click"/>
 
         </StackPanel>
 

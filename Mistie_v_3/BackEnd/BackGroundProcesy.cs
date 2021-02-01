@@ -59,7 +59,7 @@ namespace Mistie_v_3.BackEnd
         }
         public void ZrusisOdpocetAktivityButtonu()
         {
-            if (VlaknoAktivitaButtonu != null || VlaknoAktivitaButtonu.IsAlive)
+            if (VlaknoAktivitaButtonu != null && VlaknoAktivitaButtonu.IsAlive)
                 VlaknoAktivitaButtonu.Abort();
         }
 
