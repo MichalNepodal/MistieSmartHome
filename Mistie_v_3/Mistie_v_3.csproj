@@ -286,9 +286,7 @@
     <Resource Include="Pictures\Buttons\Big\kolekceBig1.png" />
     <Resource Include="Pictures\Buttons\Big\konecAplikaceBig1.png" />
     <Resource Include="Pictures\Buttons\Big\mistieBig1.PNG" />
-    <Resource Include="Pictures\Buttons\Big\nastaveni2.png" />
     <Resource Include="Pictures\Buttons\Big\nastaveniBig1.png" />
-    <Resource Include="Pictures\Buttons\Big\obyvak.png" />
     <Resource Include="Pictures\Buttons\Big\odchodBig1.PNG" />
     <Resource Include="Pictures\Buttons\Big\odemcenoBig1.png" />
     <Resource Include="Pictures\Buttons\Big\praceBig1.png" />
@@ -331,6 +329,31 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Pictures\Icons\homeZabezpeceniIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pictures\Buttons\Small\0Small.png" />
+    <Resource Include="Pictures\Buttons\Small\1Small.png" />
+    <Resource Include="Pictures\Buttons\Small\2Small.png" />
+    <Resource Include="Pictures\Buttons\Small\3Small.png" />
+    <Resource Include="Pictures\Buttons\Small\4Small.png" />
+    <Resource Include="Pictures\Buttons\Small\5Small.png" />
+    <Resource Include="Pictures\Buttons\Small\6Small.png" />
+    <Resource Include="Pictures\Buttons\Small\7Small.png" />
+    <Resource Include="Pictures\Buttons\Small\8Small.png" />
+    <Resource Include="Pictures\Buttons\Small\9Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pictures\Icons\logoAplikace1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pictures\Buttons\Big\cviceniBig1.png" />
+    <Resource Include="Pictures\Buttons\Big\mixBig1.png" />
+    <Resource Include="Pictures\Buttons\Big\nastaveniBig2.png" />
+    <Resource Include="Pictures\Buttons\Big\obyvakBig1.png" />
+    <Resource Include="Pictures\Buttons\Big\ostatniBig1.png" />
+    <Resource Include="Pictures\Buttons\Big\o_autoroviBig1.png" />
+    <Resource Include="Pictures\Buttons\Big\playlistBig1.png" />
+    <Resource Include="Pictures\Buttons\Big\sipka_zpet.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

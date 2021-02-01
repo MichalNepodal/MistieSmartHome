@@ -8,6 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pictures/icons/homezabezpeceniicon1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pictures/buttons/big/cvicenibig1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pictures/buttons/big/mixbig1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pictures/buttons/big/nastavenibig2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pictures/buttons/big/obyvakbig1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pictures/buttons/big/ostatnibig1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pictures/buttons/big/o_autorovibig1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pictures/buttons/big/playlistbig1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pictures/buttons/big/sipka_zpet.png")]
 
 
