@@ -33,8 +33,8 @@
         </Grid.ColumnDefinitions>
 
 
-        <StackPanel Grid.Column="0" Margin="10,180,410,120">
-            <Button x:Name="zpetButton" Content="&lt;" Style="{StaticResource SomeButtonStyle}" Width="45" Height="411" Background="{x:Null}" Foreground="White" FontSize="80" BorderBrush="{x:Null}" Click="zpetButton_Click" HorizontalAlignment="Left"/>
+        <StackPanel Grid.Column="0" Margin="5,180,400,120">
+            <Button x:Name="zpetButton" Content="&lt;" Style="{StaticResource SomeButtonStyle}" Width="60" Height="411" Background="{x:Null}" Foreground="White" FontSize="80" BorderBrush="{x:Null}" Click="zpetButton_Click" HorizontalAlignment="Left"/>
 
         </StackPanel>
 

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Mistie_v_3"
         mc:Ignorable="d"
         Title="MainWindow" Height="730" Width="1280"
-        WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Icon="/Pictures/Icons/zamekIcon1.png">
+        WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Icon="/Pictures/Icons/homeZabezpeceniIcon1.png">
 
     <Window.Resources>  <!--   Effekt na vypnutí změny background buttonu při MouseOver -->
         <Style x:Key="SomeButtonStyle" TargetType="Button">
