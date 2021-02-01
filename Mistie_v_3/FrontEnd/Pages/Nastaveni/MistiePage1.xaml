@@ -8,6 +8,21 @@
       d:DesignHeight="710" d:DesignWidth="930"
       Title="MistiePage1">
 
+    <Page.Resources>
+        <Style x:Key="SomeButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="{TemplateBinding Background}">
+                            <ContentPresenter />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
     <Grid Background="{x:Null}">
         <Grid.RowDefinitions>
             <RowDefinition Height="305*"/>
@@ -24,7 +39,7 @@
 
         <StackPanel Grid.Column="0" Margin="0,150,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
 
-            <Button x:Name="aktivovatHlasoveOvladaniButton" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="Black" FontWeight="Bold" Click="aktivovatHlasoveOvladaniButton_Click">
+            <Button x:Name="aktivovatHlasoveOvladaniButton" Content="" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="Black" FontWeight="Bold" Click="aktivovatHlasoveOvladaniButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/zapnoutBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
@@ -33,7 +48,7 @@
 
         <StackPanel Grid.Column="1" Margin="20,150,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
 
-            <Button x:Name="deaktivovatHlasoveOvladaniButton" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" Click="deaktivovatHlasoveOvladaniButton_Click" VerticalAlignment="Top" >
+            <Button x:Name="deaktivovatHlasoveOvladaniButton" Content="" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" Click="deaktivovatHlasoveOvladaniButton_Click" VerticalAlignment="Top" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/vypnoutBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>

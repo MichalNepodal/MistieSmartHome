@@ -8,6 +8,21 @@
       d:DesignHeight="710" d:DesignWidth="930"
       Title="SvetlaPageIN1">
 
+    <Page.Resources>
+        <Style x:Key="SomeButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="{TemplateBinding Background}">
+                            <ContentPresenter />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
     <Grid Background="{x:Null}">
         <Grid.RowDefinitions>
             <RowDefinition Height="305*"/>
@@ -18,24 +33,24 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Column="0" Margin="10,180,410,120">
-            <Button x:Name="zpetButton" Content="&lt;" Width="Auto" Height="411" Background="{x:Null}" Foreground="White" FontSize="80" BorderBrush="{x:Null}" Click="zpetButton_Click"/>
+            <Button x:Name="zpetButton" Content="&lt;" Style="{StaticResource SomeButtonStyle}" Width="Auto" Height="411" Background="{x:Null}" Foreground="White" FontSize="80" BorderBrush="{x:Null}" Click="zpetButton_Click"/>
 
         </StackPanel>
 
         <StackPanel Grid.Column="0" Margin="0,150,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
-            <Button x:Name="obyvakSvetlaButton" Content="" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontFamily="Arial" FontSize="65" Width="377" Height="150" HorizontalAlignment="Stretch" FontWeight="Bold" Click="obyvakSvetlaButton_Click">
+            <Button x:Name="obyvakSvetlaButton" Content="" Style="{StaticResource SomeButtonStyle}" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontFamily="Arial" FontSize="65" Width="377" Height="150" HorizontalAlignment="Stretch" FontWeight="Bold" Click="obyvakSvetlaButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/obyvak.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="kuchynSvetlaButton" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="65" Width="377" Height="150" Margin="0,20,0,0" Foreground="#E5FFFFFF" FontWeight="Bold" BorderBrush="{x:Null}" Click="kuchynSvetlaButton_Click">
+            <Button x:Name="kuchynSvetlaButton" Content="" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="65" Width="377" Height="150" Margin="0,20,0,0" Foreground="#E5FFFFFF" FontWeight="Bold" BorderBrush="{x:Null}" Click="kuchynSvetlaButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/KuchyneBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="WCSvetlaButton" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="60" Width="377" Height="150" Margin="0,20,0,0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="wcSvetlaButton_Click">
+            <Button x:Name="WCSvetlaButton" Content="" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="60" Width="377" Height="150" Margin="0,20,0,0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="wcSvetlaButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/wcBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
@@ -43,19 +58,19 @@
 
         </StackPanel>
         <StackPanel Grid.Column="1" Margin="20,150,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button x:Name="lozniceSvetlaButton" Content="" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="lozniceSvetlaButton_Click" >
+            <Button x:Name="lozniceSvetlaButton" Content="" Style="{StaticResource SomeButtonStyle}" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="lozniceSvetlaButton_Click" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/LozniceBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="PracovnaSvetlaButton" Content="" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="pracovnaSvetlaButton_Click">
+            <Button x:Name="PracovnaSvetlaButton" Content="" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="pracovnaSvetlaButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/pracovnaBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="KoupelnaSvetlaButton" Content="" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="70" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" Click="KoupelnaSvetlaButton_Click" >
+            <Button x:Name="KoupelnaSvetlaButton" Content="" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="70" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" Click="KoupelnaSvetlaButton_Click" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/KoupelnaBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>

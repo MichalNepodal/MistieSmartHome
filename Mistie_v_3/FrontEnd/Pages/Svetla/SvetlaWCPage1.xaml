@@ -8,6 +8,21 @@
       d:DesignHeight="710" d:DesignWidth="930"
       Title="SvetlaWCPage1">
 
+    <Page.Resources>
+        <Style x:Key="SomeButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="{TemplateBinding Background}">
+                            <ContentPresenter />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
     <Grid Background="{x:Null}">
         <Grid.RowDefinitions>
             <RowDefinition Height="305*"/>
@@ -23,19 +38,19 @@
         </StackPanel>
 
         <StackPanel Grid.Column="0" Margin="0,150,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
-            <Button x:Name="zapnoutVsechnaSvetlaButton" Content="" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontFamily="Arial" FontSize="60" Width="377" Height="150" HorizontalAlignment="Stretch" FontWeight="Bold" Click="zapnoutVsechnaSvetlaButton_Click">
+            <Button x:Name="zapnoutVsechnaSvetlaButton" Content="" Style="{StaticResource SomeButtonStyle}" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontFamily="Arial" FontSize="60" Width="377" Height="150" HorizontalAlignment="Stretch" FontWeight="Bold" Click="zapnoutVsechnaSvetlaButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/zapnoutBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="svetlaLustrButton" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="65" Width="377" Height="150" Margin="0,20,0,0" Foreground="#E5FFFFFF" FontWeight="Bold" BorderBrush="{x:Null}" Click="svetlaLustrButton_Click">
+            <Button x:Name="svetlaLustrButton" Content="" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="65" Width="377" Height="150" Margin="0,20,0,0" Foreground="#E5FFFFFF" FontWeight="Bold" BorderBrush="{x:Null}" Click="svetlaLustrButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/svetlaLustrBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="svetlaDekoraceButton" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="60" Width="377" Height="150" Margin="0,20,0,0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold">
+            <Button x:Name="svetlaDekoraceButton" Content="" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="60" Width="377" Height="150" Margin="0,20,0,0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/svetlaDekoraceBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
@@ -43,19 +58,19 @@
 
         </StackPanel>
         <StackPanel Grid.Column="1" Margin="20,150,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button x:Name="vypnoutVsechnaSvetlaButton" Content="" FontFamily="Arial" FontSize="60" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="vypnoutVsechnaSvetlaButton_Click" >
+            <Button x:Name="vypnoutVsechnaSvetlaButton" Content="" Style="{StaticResource SomeButtonStyle}" FontFamily="Arial" FontSize="60" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="vypnoutVsechnaSvetlaButton_Click" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/vypnoutBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="svetlaLampaButton" Content="" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold">
+            <Button x:Name="svetlaLampaButton" Content="" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/svetlaLampaBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="svetlaBodovkyButton" Content="" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="70" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" >
+            <Button x:Name="svetlaBodovkyButton" Content="" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="70" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
                 </Button.Background>

@@ -8,6 +8,21 @@
       d:DesignHeight="710" d:DesignWidth="930"
       Title="ZabezpeceniCollectionPage1">
 
+    <Page.Resources>
+        <Style x:Key="SomeButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="{TemplateBinding Background}">
+                            <ContentPresenter />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
     <Grid Background="{x:Null}">
         <Grid.RowDefinitions>
             <RowDefinition Height="305*"/>
@@ -18,19 +33,19 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Column="0" Margin="0,150,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
-            <Button x:Name="aktivovatZabezpeceniButton" Content="Dveře" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontFamily="Arial" FontSize="45" Width="377" Height="150" HorizontalAlignment="Stretch" FontWeight="Bold" Click="aktivovatZabezpeceniButton_Click">
+            <Button x:Name="aktivovatZabezpeceniButton" Content="Dveře" Style="{StaticResource SomeButtonStyle}" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontFamily="Arial" FontSize="45" Width="377" Height="150" HorizontalAlignment="Stretch" FontWeight="Bold" Click="aktivovatZabezpeceniButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="nic1" Content="Okna" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" >
+            <Button x:Name="nic1" Content="Okna" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="nic" Content="spánek" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="60" Width="377" Height="150" Margin="0,20,0,0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold">
+            <Button x:Name="nic" Content="spánek" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="60" Width="377" Height="150" Margin="0,20,0,0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
                 </Button.Background>
@@ -38,19 +53,19 @@
         </StackPanel>
 
         <StackPanel Grid.Column="1" Margin="20,150,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button x:Name="deaktivovatZabezpeceniButton" Content="Okna a dveře" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" >
+            <Button x:Name="deaktivovatZabezpeceniButton" Content="Okna a dveře" Style="{StaticResource SomeButtonStyle}" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="kameryZabezpeceniButton" Content="Chodba" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold">
+            <Button x:Name="kameryZabezpeceniButton" Content="Chodba" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="historieZabezpeceniButton" Content="Garáž, veranda" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="45" Width="377" Height="150" Foreground="#E5FFFFFF" FontWeight="Bold" BorderBrush="{x:Null}">
+            <Button x:Name="historieZabezpeceniButton" Content="Garáž, veranda" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="45" Width="377" Height="150" Foreground="#E5FFFFFF" FontWeight="Bold" BorderBrush="{x:Null}">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
                 </Button.Background>
