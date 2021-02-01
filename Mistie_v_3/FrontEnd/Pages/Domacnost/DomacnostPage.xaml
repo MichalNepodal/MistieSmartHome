@@ -9,6 +9,23 @@
       Title="DomacnostPage">
 
 
+    <Page.Resources>
+        <!--   Effekt na vypnutí změny background buttonu při MouseOver -->
+        <Style x:Key="SomeButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="{TemplateBinding Background}">
+                            <ContentPresenter />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="305*"/>
@@ -31,20 +48,20 @@
 
         <StackPanel Grid.Column="0" Margin="0,150,20,70" HorizontalAlignment="Right" VerticalAlignment="Top">
 
-            <Button x:Name="svetlaButton" Content="" FontFamily="Arial" Width="377" FontSize="80" Height="150" Foreground="#E5FFFFFF" FontWeight="Bold" BorderBrush="{x:Null}" Click="svetlaButton_Click" OpacityMask="#FFE21717">
+            <Button x:Name="svetlaButton" Style="{StaticResource SomeButtonStyle}" Content="" FontFamily="Arial" Width="377" FontSize="80" Height="150" Foreground="#E5FFFFFF" FontWeight="Bold" BorderBrush="{x:Null}" Click="svetlaButton_Click" OpacityMask="#FFE21717">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/svetlaBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
 
             </Button>
 
-            <Button x:Name="collectionButton" Content="" FontFamily="Arial" Margin="0,20,0,0" Width="377" FontSize="60" Height="150" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="collectionButton_Click">
+            <Button x:Name="collectionButton" Style="{StaticResource SomeButtonStyle}" Content="" FontFamily="Arial" Margin="0,20,0,0" Width="377" FontSize="60" Height="150" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="collectionButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/kolekceBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="prichodDomuButton" Content="--" Margin="0,20,0,0" FontFamily="Arial" Width="377" FontSize="65" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="prichodDomuButton_Click" >
+            <Button x:Name="prichodDomuButton" Style="{StaticResource SomeButtonStyle}" Content="--" Margin="0,20,0,0" FontFamily="Arial" Width="377" FontSize="65" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="prichodDomuButton_Click" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
                 </Button.Background>
@@ -53,19 +70,19 @@
 
 
         <StackPanel Grid.Column="1" Margin="20,150,0,38" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button x:Name="hudbaButton" Content="" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontFamily="Arial" FontSize="80" Width="377" Height="150" HorizontalAlignment="Stretch" FontWeight="Bold" Click="hudbaButton_Click">
+            <Button x:Name="hudbaButton" Style="{StaticResource SomeButtonStyle}" Content="" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontFamily="Arial" FontSize="80" Width="377" Height="150" HorizontalAlignment="Stretch" FontWeight="Bold" Click="hudbaButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/prehratBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="spanekButton" Content="" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="60" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" Click="spanekButton_Click" >
+            <Button x:Name="spanekButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="60" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" Click="spanekButton_Click" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/televizeBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            <Button x:Name="odchodZDomuButton" Content="--" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="odchodZDomuButton_Click">
+            <Button x:Name="odchodZDomuButton" Style="{StaticResource SomeButtonStyle}" Content="--" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="odchodZDomuButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
                 </Button.Background>

@@ -8,6 +8,22 @@
       d:DesignHeight="710" d:DesignWidth="930"
       Title="HomePage1">
 
+    <Page.Resources>
+        <!--   Effekt na vypnutí změny background buttonu při MouseOver -->
+        <Style x:Key="SomeButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="{TemplateBinding Background}">
+                            <ContentPresenter />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
     <Grid Margin="40,0,0,0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="465"/>
@@ -18,7 +34,6 @@
             <RowDefinition Height="35*"/>
             <RowDefinition Height="34*"/>
         </Grid.RowDefinitions>
-
 
         <StackPanel Grid.Column="0" Grid.Row="0" VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="254" Width="376" Margin="52,0,0,0">
             <StackPanel.Background>
@@ -47,12 +62,12 @@
         </StackPanel>
 
         <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="175" Width="430">
-            <Button x:Name="kolekceButton" Content="" HorizontalAlignment="Left" Margin="50,0,0,10" FontFamily="Arial" FontSize="65" Width="165" Height="165" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="kolekceButton_Click">
+            <Button x:Name="kolekceButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Left" Margin="50,0,0,10" FontFamily="Arial" FontSize="65" Width="165" Height="165" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="kolekceButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Small/kolekceSmall1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="svetlaButton" Content="" HorizontalAlignment="Right" Margin="50,0,0,10" FontFamily="Arial" FontSize="65" Width="165" Height="165" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="svetlaButton_Click">
+            <Button x:Name="svetlaButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Right" Margin="50,0,0,10" FontFamily="Arial" FontSize="65" Width="165" Height="165" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="svetlaButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Small/svetlaSmall1.png" Stretch="UniformToFill"/>
                 </Button.Background>
@@ -60,12 +75,12 @@
         </StackPanel>
 
         <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="175" Width="430">
-            <Button x:Name="hudbaButton" Content="" HorizontalAlignment="Left" Margin="0,0,50,10" FontFamily="Arial" FontSize="65" Width="165" Height="165" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="hudbaButton_Click">
+            <Button x:Name="hudbaButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Left" Margin="0,0,50,10" FontFamily="Arial" FontSize="65" Width="165" Height="165" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="hudbaButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Small/prehratSmall1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="youtubeButton" Content="" HorizontalAlignment="Right" Margin="0,0,50,10" FontFamily="Arial" FontSize="65" Width="165" Height="165" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="youtubeButton_Click">
+            <Button x:Name="youtubeButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Right" Margin="0,0,50,10" FontFamily="Arial" FontSize="65" Width="165" Height="165" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="youtubeButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Small/youtubeSmall1.png" Stretch="UniformToFill"/>
                 </Button.Background>
@@ -73,7 +88,7 @@
         </StackPanel>
 
         <StackPanel Grid.Column="0" Grid.Row="2" VerticalAlignment="Bottom" Height="170">
-            <Button x:Name="spanekButton" Content="" HorizontalAlignment="Left" Margin="50,0,0,20" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="spanekButton_Click">
+            <Button x:Name="spanekButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Left" Margin="50,0,0,20" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="spanekButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/spanekBig1.PNG" Stretch="UniformToFill"/>
                 </Button.Background>
@@ -81,7 +96,7 @@
         </StackPanel>
 
         <StackPanel Grid.Column="1" Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="170" Width="428">
-            <Button x:Name="odchodButton" Content="" HorizontalAlignment="Right" Margin="0,0,50,20" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold">
+            <Button x:Name="odchodButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Right" Margin="0,0,50,20" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/odchodBig1.PNG" Stretch="UniformToFill"/>
                 </Button.Background>

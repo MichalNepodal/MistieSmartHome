@@ -8,6 +8,22 @@
       d:DesignHeight="710" d:DesignWidth="930"
       Title="NastaveniPage">
 
+    <Page.Resources>
+        <!--   Effekt na vypnutí změny background buttonu při MouseOver -->
+        <Style x:Key="SomeButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="{TemplateBinding Background}">
+                            <ContentPresenter />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="305*"/>
@@ -19,12 +35,12 @@
 
         <StackPanel Grid.Column="0" Margin="0,150,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
 
-            <Button x:Name="mistiePageButton" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="Black" FontWeight="Bold" Click="mistiePageButton_Click">
+            <Button x:Name="mistiePageButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="Black" FontWeight="Bold" Click="mistiePageButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/mistieBig1.PNG" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="zvukNastaveni" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="36" Width="377" Height="150" Margin="0,20,0,0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="zvukNastaveni_Click">
+            <Button x:Name="zvukNastaveni" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="36" Width="377" Height="150" Margin="0,20,0,0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="zvukNastaveni_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/konecAplikaceBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
@@ -33,12 +49,12 @@
 
         <StackPanel Grid.Column="1" Margin="20,150,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
 
-            <Button x:Name="deaktivovatHlasoveOvladaniButton" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" >
+            <Button x:Name="deaktivovatHlasoveOvladaniButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/zvukBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="nic2_Copy" Content="" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="35" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" >
+            <Button x:Name="nic2_Copy" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="35" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF"  FontWeight="Bold" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/nastaveni2.png" Stretch="UniformToFill"/>
                 </Button.Background>
