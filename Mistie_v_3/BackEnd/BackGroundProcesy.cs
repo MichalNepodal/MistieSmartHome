@@ -34,7 +34,7 @@ namespace Mistie_v_3.BackEnd
         // AKTIVITA BUTTONU 
         // AKTIVITA BUTTONU 
         public void AktivitaButtonu()
-        {
+        {            
             if(VlaknoAktivitaButtonu == null || !VlaknoAktivitaButtonu.IsAlive)
             {
                 AktivitaButtonuCislo = 30;
@@ -56,6 +56,11 @@ namespace Mistie_v_3.BackEnd
             }
             if(!PoplachAktivovan)
                 mainWindow.HomePage1Vlakno();
+        }
+        public void ZrusisOdpocetAktivityButtonu()
+        {
+            if (VlaknoAktivitaButtonu != null || VlaknoAktivitaButtonu.IsAlive)
+                VlaknoAktivitaButtonu.Abort();
         }
 
         // INTERNÍ METODY 

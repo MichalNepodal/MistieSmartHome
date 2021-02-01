@@ -37,5 +37,10 @@ namespace Mistie_v_3.FrontEnd.Pages
         {
             mainWindow.Close();
         }
+
+        private void OAutorovi_Click(object sender, RoutedEventArgs e)
+        {
+            mainWindow.InformaceTvurcePage1();
+        }
     }
 }

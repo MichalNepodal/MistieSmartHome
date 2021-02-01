@@ -60,6 +60,14 @@
                 </Button.Background>
             </Button>
         </StackPanel>
+
+        <StackPanel Grid.Column="0" Grid.ColumnSpan="2" Margin="0,480,0,0">
+            <Button x:Name="OAutorovi" Style="{StaticResource SomeButtonStyle}" Content="O Autorovi" HorizontalAlignment="Center" FontFamily="Arial Rounded MT Bold" FontSize="110" Width="600" Height="150" Margin="0,20,0,0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" VerticalAlignment="Center" Click="OAutorovi_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
         
     </Grid>
 </Page>

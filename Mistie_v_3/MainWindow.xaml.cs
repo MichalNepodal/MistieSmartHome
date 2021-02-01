@@ -242,7 +242,7 @@ namespace Mistie_v_3
         public void InformaceTvurcePage1()
         {
             mainWindowFrame.NavigationService.Navigate(informaceTvurcePage1);
-            AktivitaButtonu();
+            backGroundProcesy.ZrusisOdpocetAktivityButtonu();
         }
         public void MistiePage1()
         {
