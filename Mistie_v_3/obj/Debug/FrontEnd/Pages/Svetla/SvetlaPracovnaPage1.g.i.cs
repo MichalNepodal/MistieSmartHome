@@ -49,7 +49,7 @@ namespace Mistie_v_3.FrontEnd.Pages {
         #line hidden
         
         
-        #line 41 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
+        #line 45 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button zapnoutVsechnaSvetlaButton;
         
@@ -57,7 +57,7 @@ namespace Mistie_v_3.FrontEnd.Pages {
         #line hidden
         
         
-        #line 47 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
+        #line 51 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button svetlaLustrButton;
         
@@ -65,7 +65,7 @@ namespace Mistie_v_3.FrontEnd.Pages {
         #line hidden
         
         
-        #line 54 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
+        #line 58 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button svetlaDekoraceButton;
         
@@ -73,7 +73,7 @@ namespace Mistie_v_3.FrontEnd.Pages {
         #line hidden
         
         
-        #line 62 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
+        #line 66 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button vypnoutVsechnaSvetlaButton;
         
@@ -81,7 +81,7 @@ namespace Mistie_v_3.FrontEnd.Pages {
         #line hidden
         
         
-        #line 68 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
+        #line 72 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button svetlaLampaButton;
         
@@ -89,7 +89,7 @@ namespace Mistie_v_3.FrontEnd.Pages {
         #line hidden
         
         
-        #line 74 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
+        #line 78 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button svetlaBodovkyButton;
         
@@ -138,7 +138,7 @@ namespace Mistie_v_3.FrontEnd.Pages {
             case 2:
             this.zapnoutVsechnaSvetlaButton = ((System.Windows.Controls.Button)(target));
             
-            #line 41 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
+            #line 45 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
             this.zapnoutVsechnaSvetlaButton.Click += new System.Windows.RoutedEventHandler(this.zapnoutVsechnaSvetlaButton_Click);
             
             #line default
@@ -147,7 +147,7 @@ namespace Mistie_v_3.FrontEnd.Pages {
             case 3:
             this.svetlaLustrButton = ((System.Windows.Controls.Button)(target));
             
-            #line 47 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
+            #line 51 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
             this.svetlaLustrButton.Click += new System.Windows.RoutedEventHandler(this.svetlaLustrButton_Click);
             
             #line default
@@ -159,7 +159,7 @@ namespace Mistie_v_3.FrontEnd.Pages {
             case 5:
             this.vypnoutVsechnaSvetlaButton = ((System.Windows.Controls.Button)(target));
             
-            #line 62 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
+            #line 66 "..\..\..\..\..\FrontEnd\Pages\Svetla\SvetlaPracovnaPage1.xaml"
             this.vypnoutVsechnaSvetlaButton.Click += new System.Windows.RoutedEventHandler(this.vypnoutVsechnaSvetlaButton_Click);
             
             #line default

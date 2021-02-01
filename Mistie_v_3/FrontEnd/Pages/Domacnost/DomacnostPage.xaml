@@ -61,9 +61,9 @@
                 </Button.Background>
             </Button>
 
-            <Button x:Name="prichodDomuButton" Style="{StaticResource SomeButtonStyle}" Content="--" Margin="0,20,0,0" FontFamily="Arial" Width="377" FontSize="65" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="prichodDomuButton_Click" >
+            <Button x:Name="prichodDomuButton" Style="{StaticResource SomeButtonStyle}" Content="" Margin="0,20,0,0" FontFamily="Arial" Width="377" FontSize="65" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="prichodDomuButton_Click" >
                 <Button.Background>
-                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/spanekBig1.PNG" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
         </StackPanel>
@@ -82,9 +82,9 @@
                 </Button.Background>
             </Button>
 
-            <Button x:Name="odchodZDomuButton" Style="{StaticResource SomeButtonStyle}" Content="--" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="odchodZDomuButton_Click">
+            <Button x:Name="odchodZDomuButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="odchodZDomuButton_Click">
                 <Button.Background>
-                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/ostatniBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 

@@ -33,7 +33,11 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Column="0" Margin="5,180,400,120">
-            <Button x:Name="zpetButton" Content="&lt;" Style="{StaticResource SomeButtonStyle}" Width="60" Height="406" Background="{x:Null}" Foreground="White" FontSize="80" BorderBrush="{x:Null}" Click="zpetButton_Click" Margin="0,0,10,0"/>
+            <Button x:Name="zpetButton" Content="" Style="{StaticResource SomeButtonStyle}" Width="60" Height="406" Foreground="White" FontSize="80" BorderBrush="{x:Null}" Click="zpetButton_Click" Margin="0,0,10,0">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/zpetSipkaBig1.png"/>
+                </Button.Background>
+            </Button>
 
         </StackPanel>
 
@@ -53,7 +57,7 @@
 
             <Button x:Name="collectionButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="50" Width="377" Height="150" Margin="0,20,0,0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold">
                 <Button.Background>
-                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/cviceniBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
         </StackPanel>

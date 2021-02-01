@@ -353,7 +353,15 @@
     <Resource Include="Pictures\Buttons\Big\ostatniBig1.png" />
     <Resource Include="Pictures\Buttons\Big\o_autoroviBig1.png" />
     <Resource Include="Pictures\Buttons\Big\playlistBig1.png" />
-    <Resource Include="Pictures\Buttons\Big\sipka_zpet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pictures\Buttons\Big\zpetSipkaBig1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pictures\Buttons\Big\mistnostiBig1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pictures\Buttons\Big\sipkaBig1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

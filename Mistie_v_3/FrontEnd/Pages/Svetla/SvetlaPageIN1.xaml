@@ -33,14 +33,18 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Column="0" Margin="5,180,400,120">
-            <Button x:Name="zpetButton" Content="&lt;" Style="{StaticResource SomeButtonStyle}" Width="60" Height="411" Background="{x:Null}" Foreground="White" FontSize="80" BorderBrush="{x:Null}" Click="zpetButton_Click"/>
+            <Button x:Name="zpetButton" Content="" Style="{StaticResource SomeButtonStyle}" Width="60" Height="411" Foreground="White" FontSize="80" BorderBrush="{x:Null}" Click="zpetButton_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/zpetSipkaBig1.png"/>
+                </Button.Background>
+            </Button>
 
         </StackPanel>
 
         <StackPanel Grid.Column="0" Margin="0,150,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
             <Button x:Name="obyvakSvetlaButton" Content="" Style="{StaticResource SomeButtonStyle}" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontFamily="Arial" FontSize="65" Width="377" Height="150" HorizontalAlignment="Stretch" FontWeight="Bold" Click="obyvakSvetlaButton_Click">
                 <Button.Background>
-                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/obyvak.png" Stretch="UniformToFill"/>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/obyvakBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
