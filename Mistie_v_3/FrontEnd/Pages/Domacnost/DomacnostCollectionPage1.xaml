@@ -32,8 +32,8 @@
             <ColumnDefinition Width="*" MinWidth="465"/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel Grid.Column="0" Margin="10,180,410,120">
-            <Button x:Name="zpetButton" Content="&lt;" Style="{StaticResource SomeButtonStyle}" Width="Auto" Height="411" Background="{x:Null}" Foreground="White" FontSize="80" BorderBrush="{x:Null}" Click="zpetButton_Click"/>
+        <StackPanel Grid.Column="0" Margin="5,180,400,120">
+            <Button x:Name="zpetButton" Content="&lt;" Style="{StaticResource SomeButtonStyle}" Width="60" Height="406" Background="{x:Null}" Foreground="White" FontSize="80" BorderBrush="{x:Null}" Click="zpetButton_Click" Margin="0,0,10,0"/>
 
         </StackPanel>
 
@@ -60,9 +60,9 @@
 
         <StackPanel Grid.Column="1" Margin="20,150,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
 
-            <Button Content="Spánek" Style="{StaticResource SomeButtonStyle}" FontFamily="Arial" FontSize="50" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" >
+            <Button Content="" Style="{StaticResource SomeButtonStyle}" FontFamily="Arial" FontSize="50" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" >
                 <Button.Background>
-                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/spanekBig1.PNG" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
