@@ -9,19 +9,17 @@
       Title="InformaceTvurcePage1">
 
     <Grid Background="{x:Null}">
-        <Border Width="Auto" Height="Auto" Padding="0,20,0,40" VerticalAlignment="Center">
+        <Border Width="Auto" Height="Auto" Padding="0,20,0,40" Margin="0,100,0,0" VerticalAlignment="Center">
             <Border.Background>
                 <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png"/>
             </Border.Background>
+            
             <StackPanel Width="Auto" Height="Auto">
                 <TextBlock Height="Auto" FontSize="65" Foreground="White" Text="Informace o Autorovi" HorizontalAlignment="Center" FontFamily="Ebrima" FontWeight="Bold" TextDecorations="{x:Null}"/>
                 <TextBlock Height="Auto" Margin="10,50,0,0" FontSize="50" Foreground="White" Text="Tvůrcem této aplikace je Michal Nepodal" HorizontalAlignment="Left" FontFamily="Ebrima" Width="920"/>
-                <TextBlock Height="Auto" Margin="100,20,0,0" FontSize="50" Foreground="White" Text="web  ->     www.mnsoftware.cz" HorizontalAlignment="Left" FontFamily="Ebrima"/>
-                <TextBlock Height="Auto" Margin="80,20,0,0" FontSize="50" Foreground="White" Text="email   ->    michal.nepodal.it@email.cz" HorizontalAlignment="Left" FontFamily="Ebrima"/>
-
-                <TextBlock Height="Auto" Margin="125,20,0,0" FontSize="50" Foreground="White" Text="tel   ->   +420 605 347 105" HorizontalAlignment="Left" FontFamily="Ebrima"/>
-                <TextBlock Height="Auto" Margin="60,50,0,0" FontSize="30" Foreground="White" HorizontalAlignment="Left" FontFamily="Ebrima"/>
-
+                <TextBlock Height="Auto" Margin="80,20,0,0" FontSize="50" Foreground="White" Text="web  ->     www.mnsoftware.cz" HorizontalAlignment="Left" FontFamily="Ebrima"/>
+                <TextBlock Height="Auto" Margin="40,20,0,0" FontSize="50" Foreground="White" Text="email   ->    michal.nepodal.it@email.cz" HorizontalAlignment="Left" FontFamily="Ebrima"/>
+                <TextBlock Height="Auto" Margin="100,20,0,0" FontSize="50" Foreground="White" Text="tel   ->   +420 605 347 105" HorizontalAlignment="Left" FontFamily="Ebrima"/>
             </StackPanel>
 
         </Border>

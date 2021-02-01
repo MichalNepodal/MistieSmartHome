@@ -68,13 +68,13 @@
                 </Button.Background>
             </Button>
 
-            <Button x:Name="poplachButton" Style="{StaticResource SomeButtonStyle}" Content="POPLACH !!!" HorizontalAlignment="Stretch" FontFamily="Arial" Margin="0,20,0,0" FontSize="60" Width="377" Height="150" Foreground="White" FontWeight="Bold" BorderBrush="{x:Null}" Click="poplachButton_Click">
+            <Button x:Name="poplachButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Center" FontFamily="Arial" Margin="0,20,0,0" FontSize="32" Width="377" Height="150" Foreground="White" FontWeight="Bold" BorderBrush="{x:Null}" Click="poplachButton_Click" VerticalAlignment="Center">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 
-            
+
         </StackPanel>
     </Grid>
 </Page>
