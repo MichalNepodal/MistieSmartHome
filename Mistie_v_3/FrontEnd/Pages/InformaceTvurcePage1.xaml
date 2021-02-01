@@ -11,9 +11,9 @@
     <Grid Background="{x:Null}">
         <Border Width="Auto" Height="Auto" Padding="0,20,0,40" Margin="0,100,0,0" VerticalAlignment="Center">
             <Border.Background>
-                <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png"/>
+                <SolidColorBrush Color="White" Opacity="0.3"/>
             </Border.Background>
-            
+
             <StackPanel Width="Auto" Height="Auto">
                 <TextBlock Height="Auto" FontSize="65" Foreground="White" Text="Informace o Autorovi" HorizontalAlignment="Center" FontFamily="Ebrima" FontWeight="Bold" TextDecorations="{x:Null}"/>
                 <TextBlock Height="71" Margin="10,20,0,0" FontSize="50" Foreground="White" Text="Tvůrcem této aplikace je Michal Nepodal" HorizontalAlignment="Left" FontFamily="Ebrima" Width="920"/>

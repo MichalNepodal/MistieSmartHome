@@ -48,7 +48,7 @@
 
             <Button x:Name="nic" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Stretch" FontFamily="Arial" Margin="0,20,0,0" FontSize="45" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold">
                 <Button.Background>
-                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/domacnostBig1.png" Stretch="UniformToFill"/>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/odchodBig1.PNG" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
         </StackPanel>
@@ -69,7 +69,7 @@
 
             <Button x:Name="poplachButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Center" FontFamily="Arial" Margin="0,20,0,0" FontSize="32" Width="377" Height="150" Foreground="White" FontWeight="Bold" BorderBrush="{x:Null}" Click="poplachButton_Click" VerticalAlignment="Center">
                 <Button.Background>
-                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/ostatniBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 

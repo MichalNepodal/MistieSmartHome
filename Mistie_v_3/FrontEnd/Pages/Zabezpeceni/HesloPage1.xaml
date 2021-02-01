@@ -48,17 +48,17 @@
         </StackPanel>
 
         <StackPanel Grid.Column="1" Grid.Row="1">
-            <Button x:Name="cislo1Button" Content="" Height="97" Margin="20,30,20,0" Click="cislo1Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+            <Button x:Name="cislo1Button" Content="" Style="{StaticResource SomeButtonStyle}" Height="97" Margin="20,30,20,0" Click="cislo1Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Small/1Small.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="cislo4Button" Content="" Height="97" Margin="20,30,20,0" Click="cislo4Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+            <Button x:Name="cislo4Button" Content="" Style="{StaticResource SomeButtonStyle}" Height="97" Margin="20,30,20,0" Click="cislo4Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Small/4Small.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="cislo7Button" Content="" Height="97" Margin="20,30,20,0" Click="cislo7Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+            <Button x:Name="cislo7Button" Content="" Style="{StaticResource SomeButtonStyle}" Height="97" Margin="20,30,20,0" Click="cislo7Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Small/7Small.png"/>
                 </Button.Background>
@@ -66,22 +66,22 @@
         </StackPanel>
 
         <StackPanel Grid.Column="2" Grid.Row="1">
-            <Button x:Name="cislo2Button" Content="" Height="97" Margin="20,30,20,0" Click="cislo2Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+            <Button x:Name="cislo2Button" Content="" Style="{StaticResource SomeButtonStyle}" Height="97" Margin="20,30,20,0" Click="cislo2Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Small/2Small.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="cislo5Button" Content="" Height="97" Margin="20,30,20,0" Click="cislo5Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+            <Button x:Name="cislo5Button" Content="" Style="{StaticResource SomeButtonStyle}" Height="97" Margin="20,30,20,0" Click="cislo5Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Small/5Small.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="cislo8Button" Content="" Height="97" Margin="20,30,20,0" Click="cislo8Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+            <Button x:Name="cislo8Button" Content="" Style="{StaticResource SomeButtonStyle}" Height="97" Margin="20,30,20,0" Click="cislo8Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Small/8Small.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="cislo0Button" Content="" Height="97" Margin="20,30,20,0" Click="cislo0Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+            <Button x:Name="cislo0Button" Content="" Style="{StaticResource SomeButtonStyle}" Height="97" Margin="20,30,20,0" Click="cislo0Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Small/0Small.png"/>
                 </Button.Background>
@@ -89,22 +89,22 @@
         </StackPanel>
 
         <StackPanel Grid.Column="3" Grid.Row="1">
-            <Button x:Name="cislo3Button" Content="" Height="97" Margin="20,30,20,0" Click="cislo3Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+            <Button x:Name="cislo3Button" Content="" Style="{StaticResource SomeButtonStyle}" Height="97" Margin="20,30,20,0" Click="cislo3Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Small/3Small.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="cislo6Button" Content="" Height="97" Margin="20,30,20,0" Click="cislo6Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+            <Button x:Name="cislo6Button" Content="" Style="{StaticResource SomeButtonStyle}" Height="97" Margin="20,30,20,0" Click="cislo6Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Small/6Small.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="cislo9Button" Content="" Height="97" Margin="20,30,20,0" Click="cislo9Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+            <Button x:Name="cislo9Button" Content="" Style="{StaticResource SomeButtonStyle}" Height="97" Margin="20,30,20,0" Click="cislo9Button_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Small/9Small.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="vynulovatHesloButton" Content="" Height="97" Margin="20,30,20,0" Click="vynulovatHesloButton_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
+            <Button x:Name="vynulovatHesloButton" Content="" Style="{StaticResource SomeButtonStyle}" Height="97" Margin="20,30,20,0" Click="vynulovatHesloButton_Click" FontSize="95" Foreground="White" BorderBrush="{x:Null}" BorderThickness="2" FontFamily="Tw Cen MT Condensed Extra Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/sipkaBig1.png"/>
                 </Button.Background>

@@ -33,7 +33,11 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Column="0" Margin="10,180,410,120">
-            <Button x:Name="zpetButton" Content="&lt;" Width="Auto" Height="411" Background="{x:Null}" Foreground="White" FontSize="80" BorderBrush="{x:Null}" Click="zpetButton_Click"/>
+            <Button x:Name="zpetButton" Content="" Style="{StaticResource SomeButtonStyle}" Width="Auto" Height="411" Foreground="White" FontSize="80" BorderBrush="{x:Null}" Click="zpetButton_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/zpetSipkaBig1.png"/>
+                </Button.Background>
+            </Button>
 
         </StackPanel>
 
