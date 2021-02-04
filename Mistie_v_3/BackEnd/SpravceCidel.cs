@@ -104,35 +104,6 @@ namespace Mistie_v_3.BackEnd
         public void ZmenaStavuZabezpeceni(string stav) // stav on / off
         {
             ZabezpeceniAktivovano = (stav == "on") ? true : false;
-            MessageBox.Show("spravce cidel - zabepeceni nastaveno na true");
-
-            //MessageBox.Show("ZABEZPEČENÍ v SpravceCidel AKTIVOVÁNO");
-            //if (typ == "plne")
-            //{
-            //    if (stav == "on")
-            //    {
-            //        ZabezpeceniAktivovano = true;
-            //        spravceZabezpeceni.StavZabezpeceni("plne", "on");
-            //    }
-            //    else if (stav == "off")
-            //    {
-            //        ZabezpeceniAktivovano = false;
-            //        spravceZabezpeceni.StavZabezpeceni("plne", "off");
-            //    }
-            //}
-            //if (typ == "sleep")
-            //{
-            //    if (stav == "on")
-            //    {
-            //        SleepRezimAktivovan = true;
-            //        spravceZabezpeceni.StavZabezpeceni("sleep", "on");
-            //    }
-            //    else if (stav == "off")
-            //    {
-            //        SleepRezimAktivovan = false;
-            //        spravceZabezpeceni.StavZabezpeceni("sleep", "off");
-            //    }
-            //}
         }
 
         // BUTTONS METODY
