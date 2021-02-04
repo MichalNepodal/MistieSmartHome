@@ -33,7 +33,7 @@ namespace Mistie_v_3
         }
         public void PlayMusic()
         {
-            soundPlayer = new SoundPlayer(@"D:\MistieSmartHome\Mistie_v_0.07_31_1_2021\Mistie_v_3\Music\music1.wav");
+            soundPlayer = new SoundPlayer(@"C:\Mistie\Mistie_v_3\Music\music1.wav");
             soundPlayer.Play();
         }
 

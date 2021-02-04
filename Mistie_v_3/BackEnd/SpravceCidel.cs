@@ -101,35 +101,38 @@ namespace Mistie_v_3.BackEnd
             NaruseniObjektuAktivovano = (stav == "on") ? true : false;
         }
 
-        public void ZmenaStavuZabezpeceni(string typ, string stav) // stav on / off
+        public void ZmenaStavuZabezpeceni(string stav) // stav on / off
         {
-            MessageBox.Show("ZABEZPEČENÍ AKTIVOVÁNO");
-            if (typ == "plne")
-            {
-                if (stav == "on")
-                {
-                    ZabezpeceniAktivovano = true;
-                    spravceZabezpeceni.StavZabezpeceni("plne", "on");
-                }
-                else if (stav == "off")
-                {
-                    ZabezpeceniAktivovano = false;
-                    spravceZabezpeceni.StavZabezpeceni("plne", "off");
-                }
-            }
-            if (typ == "sleep")
-            {
-                if (stav == "on")
-                {
-                    SleepRezimAktivovan = true;
-                    spravceZabezpeceni.StavZabezpeceni("sleep", "on");
-                }
-                else if (stav == "off")
-                {
-                    SleepRezimAktivovan = false;
-                    spravceZabezpeceni.StavZabezpeceni("sleep", "off");
-                }
-            }
+            ZabezpeceniAktivovano = (stav == "on") ? true : false;
+            MessageBox.Show("spravce cidel - zabepeceni nastaveno na true");
+
+            //MessageBox.Show("ZABEZPEČENÍ v SpravceCidel AKTIVOVÁNO");
+            //if (typ == "plne")
+            //{
+            //    if (stav == "on")
+            //    {
+            //        ZabezpeceniAktivovano = true;
+            //        spravceZabezpeceni.StavZabezpeceni("plne", "on");
+            //    }
+            //    else if (stav == "off")
+            //    {
+            //        ZabezpeceniAktivovano = false;
+            //        spravceZabezpeceni.StavZabezpeceni("plne", "off");
+            //    }
+            //}
+            //if (typ == "sleep")
+            //{
+            //    if (stav == "on")
+            //    {
+            //        SleepRezimAktivovan = true;
+            //        spravceZabezpeceni.StavZabezpeceni("sleep", "on");
+            //    }
+            //    else if (stav == "off")
+            //    {
+            //        SleepRezimAktivovan = false;
+            //        spravceZabezpeceni.StavZabezpeceni("sleep", "off");
+            //    }
+            //}
         }
 
         // BUTTONS METODY
@@ -152,6 +155,7 @@ namespace Mistie_v_3.BackEnd
             // Promluví slovo Aktivuji abezpečení
             Thread.Sleep(10000);
             SvetlaIN("chodba", "", "off");
+            ZabezpeceniAktivovano = true;
             spravceZabezpeceni.AktivovatZabezpeceniVlakno();
         }
         public void OdchodZDomuAktivovat(string stav)
@@ -446,17 +450,17 @@ namespace Mistie_v_3.BackEnd
                 if (ZabezpeceniAktivovano)
                 {
                     spravceZabezpeceni.KontrolaZabezpeceni(ArduinoText);
-                }            
-
-            if (!PoplachAktivovan)
-            {
-                // TEPLOTA
-                if (ArduinoText.Length == 12 && ArduinoText.Contains("t") && ArduinoText.Contains("v"))
-                {
-                    int.TryParse(ArduinoText.Substring(1, 2), out arduinoTeplota);
-                    int.TryParse(ArduinoText.Substring(7, 2), out arduinoVlhkost);
                 }
-            }                
+
+                if (!PoplachAktivovan)
+                {
+                    // TEPLOTA
+                    if (ArduinoText.Length == 12 && ArduinoText.Contains("t") && ArduinoText.Contains("v"))
+                    {
+                        int.TryParse(ArduinoText.Substring(1, 2), out arduinoTeplota);
+                        int.TryParse(ArduinoText.Substring(7, 2), out arduinoVlhkost);
+                    }
+                }
         }
 
         public int VratTeplotu()
@@ -477,7 +481,7 @@ namespace Mistie_v_3.BackEnd
             try
             {
                 serialPort.BaudRate = 9600;
-                serialPort.PortName = "COM7"; // na tabletu je to levé USB.
+                serialPort.PortName = "COM6"; // na tabletu je to levé USB.
                 serialPort.Open();
                 Thread.Sleep(300);
                 MessageBox.Show("ARDUINO\n\nÚspěšné navázání komunikace s USB portem. \nArduino deska PŘIPOJENA, Mistie připravena k odesílání příkazů desce Arduino.");
@@ -498,6 +502,7 @@ namespace Mistie_v_3.BackEnd
                 timer.Tick += new EventHandler(CtiArduino);
                 timer.Interval = new TimeSpan(0, 0, 0, 15);
                 timer.Start();
+                
             }
             catch (Exception ex)
             {

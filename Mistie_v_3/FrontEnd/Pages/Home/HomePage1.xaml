@@ -39,7 +39,7 @@
                 <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Icons/teplotaUvnitrIcon1.png" Stretch="Uniform" Opacity="0.2" Viewbox="0,-0.07,1,1.2"/>
             </StackPanel.Background>
 
-            <TextBlock x:Name="teplotaINTextBlock" TextWrapping="Wrap" FontFamily="Century Gothic" Padding="55,55,0,0" Margin="0,0,0,10" FontSize="110" Width="378" Height="244" Foreground="#E5FFFFFF" FontWeight="Bold" VerticalAlignment="Bottom" HorizontalAlignment="Right" Text="-- °C ">
+            <TextBlock x:Name="teplotaINTextBlock" TextWrapping="Wrap" FontFamily="Century Gothic" Padding="55,55,0,0" Margin="0,0,0,10" FontSize="110" Width="378" Height="244" Foreground="#E5FFFFFF" FontWeight="Bold" VerticalAlignment="Bottom" HorizontalAlignment="Right" Text="21 °C ">
                 <TextBlock.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png"/>
                 </TextBlock.Background>
@@ -52,7 +52,7 @@
                 <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Icons/teplotaVenkuIcon1.png" Opacity="0.2" Stretch="Uniform" Viewbox="0,-0.06,1,1.15"/>
             </StackPanel.Background>
 
-            <TextBlock x:Name="teplotaOUTTextBlock" TextWrapping="Wrap" FontFamily="Century Gothic" Margin="0,0,0,10" Padding="0,55,0,0" FontSize="110" Width="378" Height="244" Foreground="#E5FFFFFF" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Text=" -- °C">
+            <TextBlock x:Name="teplotaOUTTextBlock" TextWrapping="Wrap" FontFamily="Century Gothic" Margin="0,0,0,10" Padding="0,55,0,0" FontSize="110" Width="378" Height="244" Foreground="#E5FFFFFF" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Text=" -5 °C">
                 <TextBlock.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png"/>
                 </TextBlock.Background>

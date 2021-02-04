@@ -35,7 +35,7 @@
         <StackPanel Grid.Column="0" Margin="10,180,410,120">
             <Button x:Name="zpetButton" Content="" Style="{StaticResource SomeButtonStyle}" Width="Auto" Height="411" Foreground="White" FontSize="80" BorderBrush="{x:Null}" Click="zpetButton_Click">
                 <Button.Background>
-                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/zpetSipkaBig1.png"/>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/zpetSipkaBig1.png" Opacity="0.8"/>
                 </Button.Background>
             </Button>
 

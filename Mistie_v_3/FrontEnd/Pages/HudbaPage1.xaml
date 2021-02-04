@@ -50,7 +50,7 @@
 
             <Button x:Name="svetlaButton" Content="" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="80" Width="377" Height="150" Margin="0,20,0,0" Foreground="#E5FFFFFF" FontWeight="Bold" BorderBrush="{x:Null}">
                 <Button.Background>
-                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill" Viewbox="0,-0.06,1,1"/>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/playlistBig1.png" Stretch="UniformToFill" Viewbox="0,-0.06,1,1"/>
                 </Button.Background>
             </Button>
 
@@ -64,7 +64,7 @@
 
             <Button Content="" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" Margin="0,20,0,0" FontFamily="Arial" FontSize="80" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold">
                 <Button.Background>
-                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/BackGround/teplotaPozadi1.png" Stretch="UniformToFill"/>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/mixBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
         </StackPanel>

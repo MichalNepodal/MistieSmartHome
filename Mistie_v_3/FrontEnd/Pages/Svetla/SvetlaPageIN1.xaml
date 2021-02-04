@@ -54,9 +54,9 @@
                 </Button.Background>
             </Button>
 
-            <Button x:Name="WCSvetlaButton" Content="" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="60" Width="377" Height="150" Margin="0,20,0,0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="wcSvetlaButton_Click">
+            <Button x:Name="chodbaSvetlaButton" Content="" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="60" Width="377" Height="150" Margin="0,20,0,0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="chodbaSvetlaButton_Click">
                 <Button.Background>
-                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/wcBig1.png" Stretch="UniformToFill"/>
+                    <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/chodbaBig1.png" Stretch="UniformToFill"/>
                 </Button.Background>
             </Button>
 

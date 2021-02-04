@@ -47,10 +47,6 @@ namespace Mistie_v_3.FrontEnd.Pages
         {
             mainWindow.SvetlaPracovnaPage1();
         }
-        private void wcSvetlaButton_Click(object sender, RoutedEventArgs e)
-        {
-            mainWindow.SvetlaWCPage1();
-        }
         private void KoupelnaSvetlaButton_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.SvetlaKoupelnaPage1();
@@ -66,6 +62,10 @@ namespace Mistie_v_3.FrontEnd.Pages
         private void zpetButton_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.SvetlaPage1();
+        }
+        private void chodbaSvetlaButton_Click(object sender, RoutedEventArgs e)
+        {
+            mainWindow.SvetlaChodbaPage1();
         }
     }
 }

@@ -75,6 +75,7 @@ namespace Mistie_v_3
         {
             this.backGroundProcesy = new BackGroundProcesy(this);
             spravceZabezpeceni = new SpravceZabezpeceni(this, backGroundProcesy);
+            spravceCidel = new SpravceCidel(this, spravceZabezpeceni, backGroundProcesy);
             svetlaPage1 = new SvetlaPage1(this, spravceCidel);
             svetlaPageIN1 = new SvetlaPageIN1(this, spravceCidel);
             svetlaCollectionPage1 = new SvetlaCollectionPage1(this, spravceCidel);
@@ -84,8 +85,7 @@ namespace Mistie_v_3
             svetlaKoupelnaPage1 = new SvetlaKoupelnaPage1(this, spravceCidel);
             svetlaKuchynPage1 = new SvetlaKuchynPage1(this, spravceCidel);
             svetlaObyvakPage1 = new SvetlaObyvakPage1(this, spravceCidel);
-            svetlaLoznicePage1 = new SvetlaLoznicePage1(this, spravceCidel);
-            spravceCidel = new SpravceCidel(this, spravceZabezpeceni, backGroundProcesy);
+            svetlaLoznicePage1 = new SvetlaLoznicePage1(this, spravceCidel);            
             spravceHudby = new SpravceHudby(spravceZabezpeceni);
             mistie = new Mistie(this, spravceCidel, spravceHudby);            
             domacnostPage = new DomacnostPage(this, spravceCidel, spravceZabezpeceni);

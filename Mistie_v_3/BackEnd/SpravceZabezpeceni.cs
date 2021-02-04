@@ -49,7 +49,7 @@ namespace Mistie_v_3.BackEnd
             SleepRezimAktivovano = false;
             PoplachAktivovan = false;
             OdpocetAktivace = false;
-            Heslo = "0423"; // testovací
+            Heslo = "1234"; // testovací
         }
 
 
@@ -57,8 +57,10 @@ namespace Mistie_v_3.BackEnd
         // ARDUINO PŘÍJEM ZPRÁVY
         public void KontrolaZabezpeceni(string arduinoText)
         {
+            
             if (arduinoText.Contains("p"))
             {
+                MessageBox.Show("v tecxtu je P");
                 zprava = arduinoText.Remove(0, 1);
                 if (zprava == "magnet" || zprava == "chodba")
                     ProveritZaznam();
@@ -103,13 +105,14 @@ namespace Mistie_v_3.BackEnd
                     OdpocetAktivace = false;
                     backGroundProcesy.ZmenaStavuPoplachu("off");
                     VynulovatHeslo();
-                    spravceHudby.ZvukSpravnehoHesla();
+                    //spravceHudby.ZvukSpravnehoHesla();
                     StavZabezpeceni("", "off");
+                    spravceCidel.ZmenaStavuZabezpeceni("off");
                 }
                 else
                 {
                     VynulovatHeslo();
-                    spravceHudby.ZvukNespravnehoHesla();
+                    //spravceHudby.ZvukNespravnehoHesla();
                 }
             }
             mainWindow.AktivitaButtonu();
@@ -123,6 +126,7 @@ namespace Mistie_v_3.BackEnd
         // ----- NARUŠENÍ, POPLACH ----
         private void NaruseniObjektu(string akce)
         {
+            MessageBox.Show("narušení objektu ON");
             if (akce == "on")
             {
                 NaruseniObjektuAktivovano = true;
@@ -178,6 +182,7 @@ namespace Mistie_v_3.BackEnd
             {
                 SleepRezimAktivovano = true;
                 mainWindow.HomeZabezpeceniOpacity(1);
+                spravceCidel.ZmenaStavuZabezpeceni("on");    
             }
         }
         public void SleepAktivovat()
@@ -186,7 +191,8 @@ namespace Mistie_v_3.BackEnd
             {
                 mainWindow.HomeZabezpeceniOpacity(1);
                 OdpocetAktivace = true;
-                spravceCidel.SleepVlaknoAktivovat("on");              
+                spravceCidel.SleepVlaknoAktivovat("on");
+                spravceCidel.ZmenaStavuZabezpeceni("on");
             }
         }
         public void OdchodZDomuAktivovat()
@@ -203,7 +209,6 @@ namespace Mistie_v_3.BackEnd
         {
             if (!ZabezpeceniAktivovano && !SleepRezimAktivovano && !OdpocetAktivace)
             {
-                mainWindow.ZamekOpacity(1);
                 OdpocetAktivace = true;
                 AktivZabezpecenivlakno = new Thread(AktivovatZabezpeceniVlakno);
                 AktivZabezpecenivlakno.Start();                
@@ -214,9 +219,9 @@ namespace Mistie_v_3.BackEnd
             //MessageBox.Show("Zabezpeceni za 5 sec.");
             mainWindow.ZamekOpacity(1);
             Thread.Sleep(5000);
-            ZabezpeceniAktivovano = true;
             OdpocetAktivace = false;
             StavZabezpeceni("plne", "on");
+            spravceCidel.ZmenaStavuZabezpeceni("on");
         }
         public void StavZabezpeceni(string typ, string stav)
         {
@@ -227,12 +232,14 @@ namespace Mistie_v_3.BackEnd
                 mainWindow.ZamekOpacity(0.1);
                 mainWindow.HomeZabezpeceniOpacity(0.1);
                 backGroundProcesy.ZmenaStavuPoplachu("off");
+                spravceCidel.ZmenaStavuZabezpeceni("off");
             }
             else if(stav == "on")
             {
                 if (typ == "plne")
                 {
-                    ZabezpeceniAktivovano = true;                    
+                    ZabezpeceniAktivovano = true;
+                    MessageBox.Show("Zabzepecení aktivováno");
 
                 }
                 if (typ == "sleep")
@@ -252,6 +259,7 @@ namespace Mistie_v_3.BackEnd
                 AktivZabezpecenivlakno.Abort(); // zničí vlákno odpočítávání zabezpečení
                 mainWindow.ZamekOpacity(0.1);
                 backGroundProcesy.ZmenaStavuPoplachu("off");
+                spravceCidel.ZmenaStavuZabezpeceni("off");
             }
             
             spravceCidel.SleepVlaknoAktivovat("off");
