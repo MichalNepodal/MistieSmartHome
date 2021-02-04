@@ -124,7 +124,7 @@ namespace Mistie_v_3.BackEnd
             Thread.Sleep(22);
             SvetlaIN("obyvak", "", "off");
             // Promluví slovo Aktivuji abezpečení
-            Thread.Sleep(10000);
+            Thread.Sleep(8000);
             SvetlaIN("chodba", "", "off");
             ZabezpeceniAktivovano = true;
             spravceZabezpeceni.AktivovatZabezpeceniVlakno();

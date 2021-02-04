@@ -73,6 +73,12 @@ namespace Mistie_v_3.FrontEnd.Pages.Home
         private void OdesliSeBackgrount()
         {
             backGroundProcesy.NactiHomePage1(this);
-        }        
+        }
+
+        private void odchodButton_Click(object sender, RoutedEventArgs e)
+        {
+            spravceCidel.OdchodZDomuAktivovat("on");
+            mainWindow.AktivitaButtonu();
+        }
     }
 }

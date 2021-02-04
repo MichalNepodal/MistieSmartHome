@@ -95,7 +95,7 @@
         </StackPanel>
 
         <StackPanel Grid.Column="1" Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="170" Width="428">
-            <Button x:Name="odchodButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Right" Margin="0,0,50,20" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold">
+            <Button x:Name="odchodButton" Style="{StaticResource SomeButtonStyle}" Content="" HorizontalAlignment="Right" Margin="0,0,50,20" FontFamily="Arial" FontSize="65" Width="377" Height="150" BorderBrush="{x:Null}" Foreground="#E5FFFFFF" FontWeight="Bold" Click="odchodButton_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Mistie_v_3;component/Pictures/Buttons/Big/odchodBig1.PNG" Stretch="UniformToFill"/>
                 </Button.Background>
